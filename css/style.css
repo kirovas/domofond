@@ -406,7 +406,7 @@ color: #ffffff;
 #nav-3-tab:after, #heading3 button.collapsed:after{
   background:url(../images/smartphone.png)no-repeat center center;
 }
-#nav-3-tab.active:after, #nav-3-tab:hover:after, #heading2 button:after{
+#nav-3-tab.active:after, #nav-3-tab:hover:after, #heading3 button:after{
   background:url(../images/smartphone-active.png)no-repeat center center;
 }
 #nav-4-tab:after, #heading4 button.collapsed:after{

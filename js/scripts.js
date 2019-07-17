@@ -1,12 +1,12 @@
 $(document).ready(function(){
-/*if ($(window).width() < 768) {
-	$('.nav-tabs a').on('shown.bs.tab', function () {
+if ($(window).width() < 768) {
+	$('#accordionExample').on('shown.bs.collapse', function () {
     $('html, body').animate({
-        scrollTop: $('.tab-content').offset().top
+        scrollTop: $('.collapse.show').offset().top
     },
     500,
     'linear'
   )
 });
-}*/
+}
 });
