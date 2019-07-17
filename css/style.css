@@ -903,6 +903,15 @@ and (max-width : 990px) {
   .navbar-light .navbar-brand{
    max-width: 200px;
   }
+  .navbar-light .navbar-nav .nav-link{
+	text-align:center;
+  }
+  .navbar-light .navbar-nav .nav-item{
+	text-align:center;
+  }
+  .navbar-light .navbar-nav .nav-item .btn-main{
+	  margin-bottom:15px;
+  }
   .banner-wrap{
     overflow:hidden;
     height: 450px;
@@ -917,18 +926,18 @@ and (max-width : 990px) {
     transform:translate(-50%,0%);
   }
    .banner-caption{
-
+		padding: 35px 10px;
    }
   .banner-caption h2 {
       color: #ffffff;
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 800;
       line-height: 22px;
       margin-top: 15px;
   }
   .banner-caption p {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 17px;
   }
