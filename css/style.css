@@ -657,7 +657,132 @@ margin-bottom:30px;
 .prize .btn-wrap .btn{
   margin:0px 15px;
 }
-
+/* page */
+.page{
+  padding:100px 0px 70px;
+}
+.page-title h1{
+  color: #000000;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+margin-bottom:50px;
+}
+.infor-card{
+  box-shadow: 0 6px 35px 3px rgba(186, 186, 186, 0.24);
+border-radius: 10px;
+background-color: #ffffff;
+padding:25px 15px;
+margin-bottom:30px;
+min-height:220px;
+max-width:300px;
+margin-left:auto;
+margin-right:auto;
+}
+.infor-card h3{
+  color: #343434;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+padding:8px 0px 12px 40px;
+background:url(../images/security.png)no-repeat top left;
+}
+.infor-card h3 img{
+  
+  
+}
+.infor-card table{
+  margin-top:30px;
+}
+.infor-card table tr td{
+  padding:15px 0px 5px;
+  color: #000000;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+border:0px;
+border-bottom:1px solid #d0d0d0;
+}
+.infor-card table tr td:last-child{
+  color: #116d92;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+text-align:right;
+}
+.infor-wrap .btn-wrap{
+  padding-top:40px;
+}
+.infor-wrap .btn-wrap .btn-bl{
+  padding:0px 60px;
+}
+/* login form */
+.login-form{
+  background-color: #e7f0f4;
+  padding:55px 0px;
+}
+.login-form h1{
+  color: #000000;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom:50px;
+text-align:center;
+}
+.form-inner{
+  width:60%;
+  max-width:350px;
+  margin:0px auto;
+}
+.form-inner label{
+  color: #000000;
+font-size: 14px;
+font-weight: 700;
+}
+.form-inner .form-control{
+  height: 44px;
+background-color: #ffffff;
+border-radius:0px;
+border:0px;
+}
+.form-inner label.form-check-label{
+font-size: 10px;
+font-weight: 400;
+line-height: 16px;
+color: #010101;
+}
+.form-inner .btn-wrap{
+  max-width:240px;
+  margin:50px auto 20px auto;
+}
+.admin-wrap p{
+  color: #000000;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+}
+.base-wrap h3{
+  color: #000000;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+margin-bottom:35px;
+}
+ul.style-check{
+  padding:0px;
+  margin:20px 0px 40px;
+  list-style:none;
+}
+ul.style-check li{
+  padding-left:30px;
+  background:url(../images/check.png)no-repeat 0px 8px;
+  color: #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+}
 /* footer */
 footer{
   padding:50px 0px;
@@ -742,7 +867,13 @@ margin-left:15px;
 
 @media (max-width:360px){
   .navbar-light .navbar-brand{
-    font-size: 13px;
+    font-size: 12px;
+  }
+  .navbar-light .navbar-brand span:first-child {
+    font-size: 19px;
+  }
+  .ver-line{
+    margin: 0px 5px;
   }
 }
 @media only screen 
@@ -915,6 +1046,14 @@ and (max-width : 990px) {
   }
   .prize .btn-wrap .btn {
     margin: 10px 0px;
+  }
+  .page {
+    padding: 40px 0px 70px;
+    min-height:700px;
+  }
+  .page-title h1{
+    font-size: 21px;
+    margin-bottom: 30px;
   }
   .footer-info{
     text-align:center;
