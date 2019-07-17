@@ -392,25 +392,46 @@ color: #ffffff;
   transform:translate(0%,-50%);
 }
 #nav-1-tab:after{
+  background:url(../images/like.png)no-repeat center center;
+}
+#nav-1-tab.active:after, #nav-1-tab:hover:after{
   background:url(../images/like-active.png)no-repeat center center;
 }
 #nav-2-tab:after{
   background:url(../images/security.png)no-repeat center center;
 }
+#nav-2-tab.active:after, #nav-2-tab:hover:after{
+  background:url(../images/security-active.png)no-repeat center center;
+}
 #nav-3-tab:after{
   background:url(../images/smartphone.png)no-repeat center center;
+}
+#nav-3-tab.active:after, #nav-3-tab:hover:after{
+  background:url(../images/smartphone-active.png)no-repeat center center;
 }
 #nav-4-tab:after{
   background:url(../images/news.png)no-repeat center center;
 }
+#nav-4-tab.active:after, #nav-4-tab:hover:after{
+  background:url(../images/news-active.png)no-repeat center center;
+}
 #nav-5-tab:after{
   background:url(../images/search-2.png)no-repeat center center;
+}
+#nav-5-tab.active:after, #nav-5-tab:hover:after{
+  background:url(../images/search-2-active.png)no-repeat center center;
 }
 #nav-6-tab:after{
   background:url(../images/conversation.png)no-repeat center center;
 }
+#nav-6-tab.active:after, #nav-6-tab:hover:after{
+  background:url(../images/conversation-active.png)no-repeat center center;
+}
 #nav-7-tab:after{
   background:url(../images/time-is-money.png)no-repeat center center;
+}
+#nav-7-tab.active:after, #nav-7-tab:hover:after{
+  background:url(../images/time-is-money-active.png)no-repeat center center;
 }
 .tabs-info .nav-tabs .nav-link span.t-icon{
   margin-right:10px;
