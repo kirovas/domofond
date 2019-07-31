@@ -1,0 +1,237 @@
+<!doctype html>
+<html >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Сотрудники АН</title>
+  </head>
+  <body class="in_page page-case">
+    <header class="sticky-top">
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><span>DomoFond</span><span class="ver-line"></span> <span>полезный софт <br> для риелторов</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="header-text mr-auto">
+                <p>Лицензия: Купля продажа_Квартиры_Вторичный рынок</p>
+                <p><a href="#" class="open-license"><span>+</span>Открыть новую Лицензию</a></p>
+              </div>
+              <div class="header-info ml-auto">
+               <span><strong>Регион:</strong> Ивано-Франковск</span>
+               <span><strong>АН:</strong> 123</span>
+               <div class="user-info">
+               	<span><strong>Логин:</strong> 12345678900</span>
+               <p><a href="#" class="logout">Выход</a></p>
+               </div>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+   <section class="page">
+     <div class="container">
+       <div class="row">
+          <div class="col-lg-2 pl-lg-0">
+          	<div class="sidebar-inner">
+          		<a class="btn btn-bl" href="#" data-toggle="modal" data-target="#vhod-info">Выбор Лицензии</a>
+          		<a href="#" class="clients "><img src="images/clients.png" /> Клиенты</a>
+          		<a href="#" class="calendar"><img src="images/calendar.png" /> Ежедневник</a>
+          		<a href="#" class="mail"><img src="images/mail.png" /> Почта</a>
+          		<a href="#" class="collaboration"><img src="images/collaboration.png" /> Посредники</a>
+          		<a href="#" class="planning"><img src="images/wedding-planning.png" /> Чек-лист</a>
+          		<a href="#" class="case active"><img src="images/case.png" /> Сотрудники АН</a>
+          		<a href="#" class="file"><img src="images/file.png" /> Бланки</a>
+          		<a href="#" class="agreement"><img src="images/agreement.png" /> Партнеры</a>
+          		<a href="#" class="bars"><img src="images/bars.png" /> Анализ</a>
+          		<a href="#" class="gears"><img src="images/gears.png" /> Настройки</a>
+          		<a href="#" class="info-help"><img src="images/info.png" /> Помощь</a>
+          		<a href="#" class="my-info"><img src="images/menu.png" /> Моя информация</a>
+          	</div>
+          </div>
+          <div class="col-lg-10">
+          	<h1 class="in_page-title">Сотрудники АН</h1>
+            <div class="table-wrap">
+              <div class="table-navbar">
+                <ul class="nav nav-tabs" id="tabletab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link " id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="true">Сотрудник АН</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="clients2-tab" data-toggle="tab" href="#clients2" role="tab" aria-controls="clients2" aria-selected="false">Список</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="clients3-tab" data-toggle="tab" href="#clients3" role="tab" aria-controls="clients3" aria-selected="false">Архив</a>
+                  </li>
+                  <div class="ml-auto">
+                  <a href="#" class="spec-btn"><img src="images/xls-2.png" alt="">Экспорт в XLS</a>
+                </div>
+                </ul>
+                
+              </div>
+              <div class="tab-content" id="clientstabcontent">
+                <div class="tab-pane fade " id="clients1" role="tabpanel" aria-labelledby="clients1-tab">1</div>
+                <div class="tab-pane fade show active" id="clients2" role="tabpanel" aria-labelledby="clients2-tab">
+                  <div class="table-filter row ">
+                    <div class="col-3">
+                      <div class="filter-search">
+                        <input type="text" placeholder="Поиск" class="form-control">
+                        <button class="btn btn-search"><img src="images/magnifying-glass.png" alt=""></button>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <select class="custom-select" id="dol">
+                        <option selected>Должность</option>
+                        <option value="1">Должность</option>
+                        <option value="2">Должность</option>
+                        <option value="3">Должность</option>
+                      </select>
+                    </div>
+                    
+                    
+                  </div>
+                  <!-- table start --> 
+                  <div class="table-responsive">
+                  <table class="table table-bordered ">
+                    <thead>
+                      <tr>
+                        <th>Код</th>
+                        <th>№ <br> фил</th>
+                        <th>ФИО</th>
+                        <th>Открытая <br>база</th>
+                        <th>Тел #1</th>
+                        <th>Тел #2</th>
+                        <th>Тел #3</th>
+                        <th>Email#1</th>
+                        <th>Мессенджер</th>
+                        <th>ДР</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>TST-1-00024-1</td>
+                        <td>1</td>
+                        <td>Ольга Николаевна</td>
+                        <td><input type="checkbox" /></td>
+                        <td>380878789791</td>
+                        <td>380878789791</td>
+                        <td>380878789791</td>
+                        <td>olga123@yahoo.com</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
+                <div class="tab-pane fade" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     
+   </section>
+    <!-- Modal -->
+<div class="modal fade" id="vhod-info" tabindex="-1" role="dialog" aria-labelledby="vhod-infoLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="vhod-panel">
+              <div class="panel-title text-center">
+                <h2>Лицензия</h2>
+                <p>Выберите значения</p>
+              </div>
+              <div class="v-panel-body mx-auto">
+                <div class="row">
+                  <div class="form-group col-md-12">
+                  <label for="">Сделка:</label>
+                  <select class="custom-select" id="sdelka">
+                <option selected>Купля-продажа</option>
+                <option value="1">Купля-продажа</option>
+                <option value="2">Купля-продажа</option>
+                <option value="3">Купля-продажа</option>
+              </select>
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <label for="">Объект:</label>
+                  <select class="custom-select" id="iobject">
+                <option selected>Квартиры</option>
+                <option value="1">Квартиры</option>
+                <option value="2">Квартиры</option>
+                <option value="3">Квартиры</option>
+              </select>
+                  </div>  
+                  <div class="col-md-6 form-group">
+                    <label for="">Рынок:</label>
+                  <select class="custom-select" id="rynok">
+                <option selected>2Ф</option>
+                <option value="1">2Ф</option>
+                <option value="2">2Ф</option>
+                <option value="3">2Ф</option>
+              </select>
+                  </div>
+                  <div class="col-md-12 btn-wrap">
+                    <p>Выберите тип заявки:</p>
+                    <a class="btn btn-bl" href="#">Купить</a>
+                    <a class="btn btn-bl" href="#">Продать</a>
+                  </div>  
+                </div>
+                
+                
+              </div>
+            </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/scripts.js" ></script>
+  </body>
+</html>
