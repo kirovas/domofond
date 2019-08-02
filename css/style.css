@@ -903,126 +903,15 @@ margin-left:15px;
 
 
 /* inner pages */
-.header-text{
-  margin-left:60px;
-  padding-top: 10px;
-}
-.header-text p{
-  font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-margin-bottom:10px;
-color: #434343;
 
-}
-.header-text p a{
-  text-decoration:none;
-  color: #000000;
-  font-weight:400;
-}
-.header-text p a span{
-  font-size:30px;
-  margin-right:10px;
-  display:inline-block;
-  line-height: 15px;
-  vertical-align: top;
-}
-
-.header-info span{
-  font-size: 12px;
-line-height: 15px;
-color: #000000;
-display:inline-block;
-vertical-align: top;
-margin-left:15px;
-}
-.header-info p{
-  font-size: 12px;
-line-height: 15px;
-color: #000000;
-}
-.header-info .user-info{
-  display:inline-block;
-  vertical-align: top;
-  padding-left:35px;
-}
-.header-info .user-info span{
-  margin-left:0px;
-}
-.header-info .user-info a{
-  font-size: 12px;
-line-height: 15px;
-color: #000000;
-}
-@media (min-width:990px) and (max-width: 1200px){
-  .header-info .user-info{
-    padding-left: 15px;
-  }
-}
-@media (max-width: 990px){
-  .header-text{
-        margin-left: 0px;
-        text-align:center;
-  }
-  .header-info{
-    margin-top:20px;
-  }
-  .header-info > span{
-    width:31%;
-  }
-  .header-info .user-info{
-    width:31%;
-    padding-left: 15px;
-  }
-}
-@media (max-width: 600px){
-  .header-info > span{
-    width:100%;
-  }
-  .header-info .user-info{
-    width:100%;
-  }
-}
 .in_page{
   background:#E5E5E5;
 }
-.in_page header{
-  background:#fff;
-}
+
 .in_page .page{
   padding: 30px 0px 30px;
 }
-.sidebar-inner{}
-.sidebar-inner a{
-  display:block;
-  
-  padding:12px 5px;
-  font-size: 14px;
-line-height: 17px;
-color: #000000;
-text-decoration:none;
-margin-bottom:0px;
-}
-.sidebar-inner a.btn{
-  font-weight: normal;
-font-size: 12px;
-width:160px;
-line-height:40px;
-padding:0px;
-color:#fff;
-margin-bottom:30px;
-}
-.sidebar-inner a img{
-  display:inline-block;
-  margin-right:10px;
-  vertical-align: middle;
-}
-.sidebar-inner a.clients:hover, .sidebar-inner a.clients.active{
-  background: #F4BC8D;
-}
-.sidebar-inner a.calendar:hover, .sidebar-inner a.calendar.active{
-  background: #F0E591;
-}
+
 input.form-control:focus, textarea.form-control:focus{
   box-shadow:none;
 }
@@ -1339,17 +1228,13 @@ padding-left:15px;
   background: #E3F2FD;
   
 }
-.sidebar-inner a.case.active, .sidebar-inner a.case:hover{
-   background: #E3F2FD;
-}
+
 
 .page-file .table-wrap table thead tr th{
  background: #DDB78A;
 }
 
-.sidebar-inner a.file.active, .sidebar-inner a.file:hover{
-   background: #DDB78A;
-}
+
 
 .page-coll .table-wrap table thead tr th{
   background: #FEE4B7;
@@ -1391,16 +1276,12 @@ padding-left:15px;
   margin-left:0px;
 
 }
-.sidebar-inner a.collaboration.active, .sidebar-inner a.collaboration:hover{
-   background: #FEE4B7;
-}
+
 
 .page-planning .table-wrap table thead tr th{
   background: #C0C0C0;
 }
-.sidebar-inner a.planning.active, .sidebar-inner a.planning:hover{
-   background: #C0C0C0;
-}
+
 .table-filter h3{
   font-weight: normal;
 font-size: 14px;
@@ -1491,16 +1372,12 @@ color: #000000;
 .page-help .table-wrap table thead tr th, .page-help .table-wrap table tbody tr td{
   width:50%;
 }
-.sidebar-inner a.info-help.active, .sidebar-inner a.info-help:hover{
-   background: #FD7F57;
-}
+
 
 .page-gears .table-wrap table thead tr th{
   background: #92CBF7;
 }
-.sidebar-inner a.gears.active, .sidebar-inner a.gears:hover{
-   background: #92CBF7;
-}
+
 
 .page-gears .coll-btn a{
   font-weight: normal;
@@ -1574,9 +1451,7 @@ color: #000000;
  background: #A6D5A8;
   
 }
-.sidebar-inner a.mail.active, .sidebar-inner a.mail:hover{
-   background: #A6D5A8;
-}
+
 .page-mail .table-wrap table thead tr th{
   background: #A6D5A8;
   padding:8px 0px;
@@ -1648,9 +1523,7 @@ margin-top:15px;
  background: #C1FFF0;
   
 }
-.sidebar-inner a.agreement.active, .sidebar-inner a.agreement:hover{
-  background: #C1FFF0;
-}
+
 .page-agree .table-wrap table thead tr th{
   background: #C1FFF0;
 }
