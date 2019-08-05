@@ -1598,6 +1598,7 @@ color: #000000;
 .page-agree .partner-wrap textarea{
   border-radius:0px;
 }
+
 @media (max-width: 768px){
   .page-agree .col-form-label{
     display:block;
