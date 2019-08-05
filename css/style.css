@@ -1007,7 +1007,12 @@ width:160px;
 .v-panel-body .btn-wrap .btn-bl + .btn-bl{
   margin-left:30px;
 }
-
+@media (max-width: 400px){
+  .v-panel-body .btn-wrap .btn-bl + .btn-bl{
+    margin-left:0px;
+    margin-top:10px;
+  }
+}
 h1.in_page-title{
   font-weight: bold;
 font-size: 18px;
