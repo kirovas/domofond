@@ -43,4 +43,16 @@ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><img 
       });
 
     });
+    if ( $('.date').length){
+$('.date input').datepicker({
+	isRTL: false,
+    format: 'dd.mm.yyyy',
+    autoclose:true,
+	todayHighlight: true,
+    language: 'ru'
+});
+}
+$('.sidebar .navbar-toggler').click(function(){
+  $('.sidebar-inner').slideToggle();
+});
 });
