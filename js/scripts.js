@@ -49,6 +49,7 @@ $('.date input').datepicker({
     format: 'dd.mm.yyyy',
     autoclose:true,
 	todayHighlight: true,
+	orientation: 'bottom',
     language: 'ru'
 });
 }
