@@ -1076,6 +1076,60 @@ padding:8px 30px;
   padding-top:25px;
   margin-bottom: 10px;
 }
+.table-filter h4{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+color:#000;
+margin-bottom:15px;
+}
+.inline-in label{
+  width:40px;
+  display:inline-block;
+  vertical-align:middle;
+}
+.inline-in .form-control{
+  display:inline-block;
+  vertical-align:middle;
+  max-width:125px;
+}
+.col_ot{
+  padding:0px 15px;
+  margin-right:10px;
+  min-width:110px;
+}
+.mw-150{
+  max-width:150px;
+}
+.w-150{
+  min-width:150px;
+}
+.form-control.gb-input{
+  background: #E4E4E4!important;
+border: 1px solid rgba(0, 0, 0, 0.1)!important;
+}
+.adr-row label{
+
+}
+.w-55{
+  width:55px;
+}
+.mw-1{
+  max-width:100px;
+}
+.mh-8{
+  min-height: 80px;
+}
+.table-filter .d-flex{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color:#000;
+}
 .filter-search{
   position:relative;
   
@@ -1089,7 +1143,7 @@ padding:8px 30px;
   height:32px;
 }
 
-.filter-search input.form-control,.table-filter input.form-control, .form-group input.form-control, .table-filter select{
+.filter-search input.form-control,.table-filter input.form-control, .form-group input.form-control, .table-filter select, .form-control{
   font-weight: normal;
 font-size: 12px;
 color: #000000;
@@ -1141,6 +1195,11 @@ color: #000000;
 border: 1px solid rgba(0,0,0,0.1);
 padding:16px 0px;
 white-space: nowrap
+}
+
+
+.page-clients .control-btn{
+background: rgba(244, 164, 96, 0.7);
 }
 .page-clients .table-wrap table thead tr th{
   background: rgba(244, 164, 96, 0.7);
@@ -1224,6 +1283,44 @@ padding-left:15px;
 }
 .page-case .spec-btn{
   background: #E3F2FD;
+}
+.page-case .control-btn{
+background: #E3F2FD;
+}
+.btn-plus{
+  display:inline-block;
+  width: 25px;
+  text-align:center;
+  line-height:25px;
+  color:#000;
+  border:0px;
+  border-radius:0px;
+  padding:0px;
+  margin-left:10px;
+}
+.page-case .btn-plus{
+  background:#E3F2FD;
+}
+.contact-case{
+  background: #F8F8F8;
+  padding:10px;
+}
+.contact-case h4{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color:#000;
+  margin-bottom:15px;
+}
+.contact-case label{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 32px;
+color: #000000;
 }
 .page-case .table-navbar .nav-tabs .nav-link:focus, .page-case .table-navbar .nav-tabs .nav-link:hover{
 
@@ -1539,6 +1636,7 @@ font-size: 12px;
 line-height: 15px;
 color: #000000;
 }
+
 .page-agree .col-form-label{
   min-width: 100px;
   display:inline-block;
