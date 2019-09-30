@@ -1110,9 +1110,18 @@ margin-bottom:15px;
   background: #E4E4E4!important;
 border: 1px solid rgba(0, 0, 0, 0.1)!important;
 }
-.adr-row label{
-
+.custom-select.gb-input{
+  background-color: #E4E4E4!important;
+border: 1px solid rgba(0, 0, 0, 0.1)!important;
 }
+span.label{
+  font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left:10px;
+}
+
 .w-55{
   width:55px;
 }
@@ -1196,8 +1205,19 @@ border: 1px solid rgba(0,0,0,0.1);
 padding:16px 0px;
 white-space: nowrap
 }
-
-
+.grey-form{
+  background: #F8F8F8;
+  padding:10px;
+}
+.grey-form h4{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color:#000;
+  margin-bottom:15px;
+}
 .page-clients .control-btn{
 background: rgba(244, 164, 96, 0.7);
 }
@@ -1287,6 +1307,9 @@ padding-left:15px;
 .page-case .control-btn{
 background: #E3F2FD;
 }
+.photo::placeholder{
+  color: rgba(0, 0, 0, 0.5)!important;
+}
 .btn-plus{
   display:inline-block;
   width: 25px;
@@ -1305,7 +1328,7 @@ background: #E3F2FD;
   background: #F8F8F8;
   padding:10px;
 }
-.contact-case h4{
+.contact-case h4, .contact-coll h4{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -1341,6 +1364,12 @@ color: #000000;
 
 .page-coll .table-wrap table thead tr th{
   background: #FEE4B7;
+}
+.contact-coll label{
+  font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
 }
 .page-coll .coll-btn{
   margin-bottom:15px;
@@ -1395,6 +1424,12 @@ margin-bottom:10px;
 .table-filter .form-check{}
 .table-filter .form-check label{
   font-weight: normal;
+font-size: 12px;
+line-height: 26px;
+color: #000000;
+}
+label{
+    font-weight: normal;
 font-size: 12px;
 line-height: 26px;
 color: #000000;

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.min.css"  />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sep/css/sidebar.css">
+    <link rel="stylesheet" href="sep/css/sticky-header.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Сотрудники АН</title>
@@ -71,10 +73,10 @@
               <div class="table-navbar">
                 <ul class="nav nav-tabs" id="tabletab" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link " id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="true">Сотрудник АН</a>
+                    <a class="nav-link active" id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="true">Сотрудник АН</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" id="clients2-tab" data-toggle="tab" href="#clients2" role="tab" aria-controls="clients2" aria-selected="false">Список</a>
+                    <a class="nav-link " id="clients2-tab" data-toggle="tab" href="#clients2" role="tab" aria-controls="clients2" aria-selected="false">Список</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="clients3-tab" data-toggle="tab" href="#clients3" role="tab" aria-controls="clients3" aria-selected="false">Архив</a>
@@ -86,8 +88,166 @@
                 
               </div>
               <div class="tab-content" id="clientstabcontent">
-                <div class="tab-pane fade " id="clients1" role="tabpanel" aria-labelledby="clients1-tab">1</div>
-                <div class="tab-pane fade show active" id="clients2" role="tabpanel" aria-labelledby="clients2-tab">
+                <div class="tab-pane fade show active" id="clients1" role="tabpanel" aria-labelledby="clients1-tab">
+					<div class="table-filter row ">
+                    <div class="col-3">
+                      <div class="filter-search">
+                        <input type="text" placeholder="Поиск" class="form-control">
+                        <button class="btn btn-search"><img src="images/magnifying-glass.png" alt=""></button>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <select class="custom-select" id="dol">
+                        <option selected>Должность</option>
+                        <option value="1">Должность</option>
+                        <option value="2">Должность</option>
+                        <option value="3">Должность</option>
+                      </select>
+                    </div>
+                    
+                    
+                  </div>
+                  <div class="table-filter row justify-content-between">
+                  	<div class="d-flex justify-content-start align-items-center px-3">
+	                   <label for="" class="mr-3">АН</label>
+	                   <input type="text" class="form-control gb-input mw-150" >
+	                </div>
+	                <div class="d-flex justify-content-start align-items-center px-3">
+	                   <label for="" class="mr-3">Код</label>
+	                   <input type="text" class="form-control gb-input mw-150" >
+	                </div>
+	                <div class="d-flex justify-content-start align-items-center px-3">
+	                   <label for="" class="mr-3">Должность</label>
+	                   <select class="custom-select w-150" id="">
+                        <option selected></option>
+                        <option value="1">Должность</option>
+                        <option value="2">Должность</option>
+                        <option value="3">Должность</option>
+                      </select>
+	                </div>
+	                <div class="d-flex justify-content-start align-items-center px-3">
+	                   <label for="" class="mr-3">Ввод:</label>
+	                   <input type="text" class="form-control gb-input mw-150" >
+	                </div>
+                  </div>
+                   <div class="table-filter row justify-content-end">
+                   	<div class="d-flex justify-content-start align-items-center px-3">
+                   		<input type="text" class="form-control gb-input mw-150 text-center" placeholder="фото">
+                   		<button class="btn btn-plus">+</button>
+                   	</div>
+                   	<div class="d-flex justify-content-start align-items-center px-3">
+                   		<label for="" class="mr-3">Рожд.</label>
+	                   <input type="text" class="form-control mw-150" placeholder="дд.мм.гггг">
+                   	</div>
+                   </div>
+
+                   <div class="row mt-5">
+                   	<div class="col-md-12 ">
+                   		<div class="contact-case">
+	                   		<div class="row">
+	                   			<div class="col-md-12"><h4>ФИО</h4></div>
+	                   			<div class="col-md-4">
+	                   				<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+	                   		</div>
+	                   		<div class="row">
+	                   			<div class="col-md-4">
+	                   				<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+	                   		</div>
+	                   		<div class="row">
+	                   			<div class="col-md-4">
+	                   				<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+	                   		</div>
+                   		</div>
+                   	</div>
+                   	
+                   </div>
+                   <div class="row mt-4">
+                   	<div class="col-md-12 ">
+                   		<div class="contact-case">
+                   			<div class="row">
+	                   			<div class="col-md-12"><h4>Контакты</h4></div>
+	                   			<div class="d-flex justify-content-start col-md-4">
+			                   		<label for="" class="mr-3 w-50">Телефон</label>
+				                   <input type="text" class="form-control" >
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+			                   	<div class="col-md-4">
+			                   		<div class="form-group"><input type="text" class="form-control "></div>
+			                   	</div>
+	                   		</div>
+	                   		<div class="row">
+	                   			<div class="d-flex justify-content-start col-md-4">
+			                   		<label for="" class="mr-3 w-50">Email</label>
+				                   <input type="text" class="form-control" >
+			                   	</div>
+			                   	<div class="col-md-4 text-right">
+			                   		<label for="" class="mr-3 w-50">Messenger</label>
+			                   	</div>
+			                   <div class="col-md-4">
+			                   	<select class="custom-select" id=""></select>
+			                   </div>
+	                   		</div>
+                   		</div>
+                   	</div>
+                   </div>
+					<div class="row mt-4">
+                   	<div class="col-md-12 ">
+                   		<div class="contact-case">
+                   			<div class="row">
+	                   			<div class="col-md-12"><h4>Паспорт</h4></div>
+	                   			<div class="col-md-7">
+			                   		
+				                  <textarea class="form-control mh-8"></textarea>
+			                   	</div>
+			                   	<div class="col-md-5">
+			                  		<div class="row">
+			                  			<div class="d-flex justify-content-start ml-auto col-md-9">
+					                   		<label for="" class="mr-3 w-50">ИД код</label>
+						                   <input type="text" class="form-control" >
+					                   	</div>
+			                  		</div>
+			                  		<div class="row justify-content-end mt-3">
+			                  			<div class="d-flex justify-content-start align-items-center col-md-6">
+					                   		<input type="text" class="form-control " placeholder="скан">
+					                   		<button class="btn btn-plus">+</button>
+					                   	</div>
+					                   	<div class="d-flex justify-content-start align-items-center col-md-6">
+					                   		<input type="text" class="form-control" placeholder="скан">
+					                   		<button class="btn btn-plus">+</button>
+					                   	</div>
+			                  		</div>
+			                   	</div>
+			                   	
+	                   		</div>
+	                   		
+                   		</div>
+                   	</div>
+                   </div>
+                </div>
+                <div class="tab-pane fade " id="clients2" role="tabpanel" aria-labelledby="clients2-tab">
                   <div class="table-filter row ">
                     <div class="col-3">
                       <div class="filter-search">
@@ -164,7 +324,80 @@
                   </table>
                 </div>
                 </div>
-                <div class="tab-pane fade" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">3</div>
+                <div class="tab-pane fade" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">
+					<!-- АРХИВ -->
+                    <div class="table-filter row align-items-end">
+                    <div class="col-md-12">
+                      <button class="btn control-btn"><img src="images/recycle.png" alt="">Восстановить</button>
+                    </div>
+                    
+                      <div class="pages-link ml-auto pr-3">
+                        <span>Страницы:</span>
+                        <a href="#">1 </a>
+                        <a href="#"><img src="images/chevron-right.png" alt=""></a>
+                      </div>
+                    
+                    
+                    
+                    
+                  </div>
+                  <!-- table start --> 
+                  <div class="table-responsive">
+                  <table class="table table-bordered ">
+                    <thead>
+                      <tr>
+                        <th><input type="checkbox" /> Все</th>
+                        <th>Код</th>
+                        <th>ФИО</th>
+                        <th>Идентиф. Код </th>
+                        <th>Тел.</th>
+                        <th>Deadline</th>
+                        
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Ольга Николаевна</td>
+                        <td></td>
+                        <td>067 123 45 67</td>
+                        <td> </td>
+                        
+                        
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                       <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                </div>
               </div>
             </div>
           </div>
