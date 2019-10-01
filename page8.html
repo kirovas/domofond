@@ -68,13 +68,25 @@
           <div class="col-lg-10">
           	<h1 class="in_page-title">Настройка</h1>
             <div class="table-wrap mt-5">
-              <div class="coll-btn">
-                <a href="#" class="active">Почта</a>
-                <a href="#" class="">Смена пароля</a>
-                <a href="#" class="">Лицензии</a>
-              </div>
               
               <div class="table-navbar">
+                <ul class="nav nav-tabs" id="tabletab1" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="post-tab" data-toggle="tab" href="#post" role="tab" aria-controls="post" aria-selected="true">Почта</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="ch_pass-tab" data-toggle="tab" href="#ch_pass" role="tab" aria-controls="ch_pass" aria-selected="false">Смена пароля</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="lise-tab" data-toggle="tab" href="#lise" role="tab" aria-controls="lise" aria-selected="false">Лицензии</a>
+                  </li>
+                 
+                </ul>
+                
+              </div>
+              <div class="tab-content" id="posttabcontent">
+                <div class="tab-pane fade show active" id="post" role="tabpanel" aria-labelledby="post-tab">
+                  <div class="table-navbar">
                 <ul class="nav nav-tabs" id="tabletab" role="tablist">
                   <li class="nav-item">
                     <a class="nav-link active" id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="true">Тема</a>
@@ -112,6 +124,112 @@
                 <div class="tab-pane fade" id="clients4" role="tabpanel" aria-labelledby="clients4-tab">3</div>
                 <div class="tab-pane fade" id="clients5" role="tabpanel" aria-labelledby="clients5-tab">3</div>
               </div>
+
+                </div><!-- post-tab -->
+                <div class="tab-pane fade" id="ch_pass" role="tabpanel" aria-labelledby="ch_pass-tab">
+                  <div class="row mt-4 align-items-center">
+                    <label class="col-3">Старый пароль</label><input type="text" class="form-control col-5" >
+                  </div>
+                  <div class="row mt-1 align-items-center">
+                    <label class="col-3">Новый пароль</label><input type="text" class="form-control col-5" >
+                  </div>
+                  <div class="row mt-1 align-items-center">
+                    <label class="col-3">Повторить пароль</label><input type="text" class="form-control col-5" >
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-8 pr-0">
+                      <div class="btn-wrap text-right">
+                        <a href="#" class="btn btn-save"><img src="images/save-2.png" alt="">Сохранить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- ch_pass -->
+                <div class="tab-pane fade" id="lise" role="tabpanel" aria-labelledby="lise-tab">
+                  <div class="row mt-5">
+                    <div class="col-md-12">
+                      <h4>Обновить или купить Лицензии:</h4>
+                      <div class="table-responsive">
+                         <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Лицензия</th>
+                                    <th>Операции</th>
+                                    <th>Текущая цена <br> UAH/месяц</th>
+                                    <th>Оплачена до </th>
+                                    <th>Продлить на</th>
+                                    
+                                    
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Квартиры 1Ф</td>
+                                    <td><input type="checkbox"><label for="">Купля-продажа</label></td>
+                                    <td>1</td>
+                                    <td>05.06.19</td>
+                                    <td><select name="" id="" class="custom-select w-55">
+                                      <option value="0">0</option>
+                                    </select></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="valign_mid" >Квартиры 2Ф</td>
+                                    <td><input type="checkbox"><label for="">Купля-продажа</label></td>
+                                    <td>1</td>
+                                    <td>05.06.19</td>
+                                    <td><select name="" id="" class="custom-select w-55">
+                                      <option value="0">0</option>
+                                    </select></td>
+                                   
+                                </tr>
+                                <tr>
+                                    
+                                    <td><input type="checkbox"><label for="">Купля-продажа</label></td>
+                                    <td>1</td>
+                                    <td>05.06.19</td>
+                                    <td><select name="" id="" class="custom-select w-55">
+                                      <option value="0">0</option>
+                                    </select></td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="valign_mid">Дома</td>
+                                    <td><input type="checkbox"><label for="">Купля-продажа</label></td>
+                                    <td>1</td>
+                                    <td>05.06.19</td>
+                                    <td><select name="" id="" class="custom-select w-55">
+                                      <option value="0">0</option>
+                                    </select></td>
+                                   
+                                </tr>
+                                <tr>
+                                    
+                                    <td><input type="checkbox"><label for="">Купля-продажа</label></td>
+                                    <td>1</td>
+                                    <td>05.06.19</td>
+                                    <td><select name="" id="" class="custom-select w-55">
+                                      <option value="0">0</option>
+                                    </select></td>
+                                   
+                                </tr>
+                                <tr>
+                                  <td colspan="5">
+                                    <div class="total-lis text-right pr-5"><strong>Всего выбрано лицензий на:</strong> <span>123456789 грн</span></div>
+                                    <div class="btn-wrap text-right pr-5 my-3">
+                                      <a href="#" class="btn btn-green">Оплатить выбранные лицензии</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                            </tbody>
+                          </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
             </div>
           </div>
         </div>

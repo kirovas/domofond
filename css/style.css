@@ -1209,6 +1209,9 @@ border: 1px solid rgba(0,0,0,0.1);
 padding:16px 0px;
 white-space: nowrap
 }
+.table-wrap table tbody tr td.valign_mid{
+  vertical-align:middle!important;
+}
 .grey-form{
   background: #F8F8F8;
   padding:10px;
@@ -1523,12 +1526,38 @@ color: #000000;
   width:50%;
 }
 
+.btn-green{
+  display:inline-block;
+  border-radius:0px;
+  line-height:32px;
+  background: #A6D5A8;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #000000;
+padding:0px 30px;
+}
 
 .page-gears .table-wrap table thead tr th{
   background: #92CBF7;
 }
 
-
+.page-gears h4{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color:#000;
+  margin-bottom:15px;
+}
+.page-gears .table-wrap table tr td input[type="checkbox"]{
+  vertical-align:middle;
+}
+.page-gears .table-wrap table tr td input[type="checkbox"] + label{
+  margin-left:5px;
+}
 .page-gears .coll-btn a{
   font-weight: normal;
 font-size: 14px;
@@ -1588,7 +1617,37 @@ color: #000000;
 .table-filter .d-inline-block{
   width:160px;
 }
-
+.mail-heading .form-control.custom-width{
+  width:calc(100% - 33px);
+  display:inline-block;
+}
+.mail-heading label{
+  vertical-align:middle;
+  line-height:32px;
+}
+.btn-dot{
+  display:inline-block;
+  vertical-align:bottom;
+  background:#fff;
+  color:#000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align:center;
+  padding: 0px 8px 0px 8px;
+  line-height:1;
+  max-height:19px;
+  border-radius:0px;
+}
+.mail-heading .btn-green img{
+  display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.mail-heading .btn-green {
+  padding:0px 40px;
+  margin: 10px;
+  height:32px;
+}
 .page-mail .coll-btn a:hover, .page-mail .coll-btn a.active{
   background: #A6D5A8;
 }
