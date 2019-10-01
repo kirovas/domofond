@@ -1098,7 +1098,7 @@ margin-bottom:15px;
 .col_ot{
   padding:0px 15px;
   margin-right:10px;
-  min-width:110px;
+  min-width:120px;
 }
 .mw-150{
   max-width:150px;
@@ -1162,7 +1162,7 @@ height:32px;
 border-radius:0px;
 padding:0px 10px;
 }
-.table-filter textarea{
+.table-filter textarea, .tab-pane textarea{
   font-weight: normal;
 font-size: 12px;
 color: #000000;
@@ -1174,11 +1174,11 @@ padding:10px 10px;
 .table-filter .form-control:focus, .table-filter select:focus{
   box-shadow:none;
 }
-.table-filter .form-control::placeholder{
+.table-filter .form-control::placeholder, .tab-pane textarea::placeholder{
   font-size: 12px;
 color: #000000;
 }
-.table-filter .form-control:focus::placeholder{
+.table-filter .form-control:focus::placeholder, .tab-pane textarea:focus::placeholder{
   opacity:0;
 }
 .table-filter select{
@@ -1374,6 +1374,10 @@ color: #000000;
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+}
+.page-coll .save-btn{
+  color: #000000;
+  background: #FEE4B7;
 }
 .page-coll .coll-btn{
   margin-bottom:15px;
