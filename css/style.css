@@ -1051,7 +1051,7 @@ font-size: 14px;
 line-height: 17px;
 border-radius:0px;
 color: #000000;
-padding:8px 30px;
+padding:8px 20px;
 }
 .table-navbar .nav-tabs .nav-link:focus, .table-navbar .nav-tabs .nav-link:hover{
   border:0px;
@@ -1125,11 +1125,49 @@ span.label{
 .w-55{
   width:55px;
 }
+.w-45{
+  width:45px;
+}
+.w-35{
+  width:35px;
+}
 .mw-1{
   max-width:100px;
 }
 .mh-8{
   min-height: 80px;
+}
+.mw-80{
+  min-width:80px;
+}
+.btn-rclose{
+  width: 25px;
+height: 25px;
+background: #FFCECE;
+border-radius:0px;
+border:0px;
+color:#000;
+font-size:18px;
+line-height:25px;
+padding:0px;
+margin-left:5px;
+}
+.addfil{
+  border-radius:0px;
+border:0px;
+color:#000;
+background:transparent;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+}
+.addfil span{
+  font-size:18px;
+  margin-right:5px;
+  line-height: 22px;
+  vertical-align: middle;
 }
 .table-filter .d-flex{
   font-family: Montserrat;
@@ -1211,6 +1249,9 @@ white-space: nowrap
 }
 .table-wrap table tbody tr td.valign_mid{
   vertical-align:middle!important;
+}
+table.stvk tr td:first-child{
+  width:70%;
 }
 .grey-form{
   background: #F8F8F8;
@@ -1311,6 +1352,12 @@ padding-left:15px;
 .page-case .spec-btn{
   background: #E3F2FD;
 }
+.page-case .spec-btn.grey{
+  background: #cccccc;
+}
+.page-case .sot-btn a{
+  margin-right:10px;
+}
 .page-case .control-btn{
 background: #E3F2FD;
 }
@@ -1335,7 +1382,8 @@ background: #E3F2FD;
   background: #F8F8F8;
   padding:10px;
 }
-.contact-case h4, .contact-coll h4{
+
+.contact-case h4, .contact-coll h4, .page-case h4{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
