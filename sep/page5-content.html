@@ -2,15 +2,15 @@
                         <div class="table-navbar">
                             <ul class="nav nav-tabs" id="tabletab2" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link" id="uch-tab" data-toggle="tab" href="#uch" role="tab" aria-controls="uch" aria-selected="false">Участники</a>
+                                    <a class="nav-link active" id="uch-tab" data-toggle="tab" href="#uch" role="tab" aria-controls="uch" aria-selected="true">Участники</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="stor-tab" data-toggle="tab" href="#stor" role="tab" aria-controls="stor" aria-selected="true">Сторонние</a>
+                                    <a class="nav-link " id="stor-tab" data-toggle="tab" href="#stor" role="tab" aria-controls="stor" aria-selected="false">Сторонние</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="tab-content" id="uchtabcontent">
-                            <div class="tab-pane fade" id="uch" role="tabpanel" aria-labelledby="uch-tab">
+                            <div class="tab-pane fade show active" id="uch" role="tabpanel" aria-labelledby="uch-tab">
                                 <div class="table-navbar">
                                     <ul class="nav nav-tabs" id="tabletab1" role="tablist">
                                         <li class="nav-item">
@@ -32,18 +32,18 @@
                                         <div class="table-navbar">
                                             <ul class="nav nav-tabs" id="tabletab" role="tablist">
                                                 <li class="nav-item">
-                                                    <a class="nav-link" id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="false">Список маклеров</a>
+                                                    <a class="nav-link active" id="clients1-tab" data-toggle="tab" href="#clients1" role="tab" aria-controls="clients1" aria-selected="true">Список маклеров</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" id="clients2-tab" data-toggle="tab" href="#clients2" role="tab" aria-controls="clients2" aria-selected="false">Список АН</a>
+                                                    <a class="nav-link " id="clients2-tab" data-toggle="tab" href="#clients2" role="tab" aria-controls="clients2" aria-selected="false">Список АН</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link active" id="clients3-tab" data-toggle="tab" href="#clients3" role="tab" aria-controls="clients3" aria-selected="true">Список риелторов</a>
+                                                    <a class="nav-link" id="clients3-tab" data-toggle="tab" href="#clients3" role="tab" aria-controls="clients3" aria-selected="false">Список риелторов</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="tab-content" id="clientstabcontent">
-                                            <div class="tab-pane fade" id="clients1" role="tabpanel" aria-labelledby="clients1-tab">
+                                            <div class="tab-pane fade show active" id="clients1" role="tabpanel" aria-labelledby="clients1-tab">
                                                 <div class="table-filter row align-items-end">
                                                     <div class="col-3">
                                                         <div class="filter-search">
@@ -75,13 +75,13 @@
                                                         <tbody>
                                                             <tr>
                                                                 <td>TST-1-00024-1</td>
-                                                                <td><input type="checkbox"></td>
+                                                                <td><input type="checkbox" /></td>
                                                                 <td>31.05.2019</td>
                                                                 <td>Ольга Николаевна</td>
                                                                 <td>380878789791</td>
                                                                 <td> </td>
                                                                 <td>olga123@yahoo.com</td>
-                                                                <td><input type="checkbox"></td>
+                                                                <td><input type="checkbox" /></td>
                                                             </tr>
                                                             <tr>
                                                                 <td></td>
@@ -116,8 +116,8 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                            </div><!-- #clients1 -->
-                                            <div class="tab-pane fade" id="clients2" role="tabpanel" aria-labelledby="clients2-tab">
+                                            </div>
+                                            <div class="tab-pane fade  " id="clients2" role="tabpanel" aria-labelledby="clients2-tab">
                                                 <div class="table-filter row align-items-end">
                                                     <div class="col-3">
                                                         <div class="filter-search">
@@ -191,8 +191,8 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                            </div><!-- #clients2 -->
-                                            <div class="tab-pane fade active show" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">
+                                            </div>
+                                            <div class="tab-pane fade" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">
                                                 <div class="table-filter row align-items-end">
                                                     <div class="col-3">
                                                         <div class="filter-search">
@@ -303,7 +303,7 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                            </div><!-- #clients3 -->
+                                            </div>
                                         </div><!-- .tabs -->
                                     </div>
                                     <div class="tab-pane fade " id="makler" role="tabpanel" aria-labelledby="makler-tab">
@@ -621,6 +621,244 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row mt-3">
+                                            <div class="col-md-12">
+                                                <div class="grey-form">
+                                                    <div class="row ">
+                                                        <div class="col-md-12">
+                                                            <h4>Директор АН</h4>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <label for="">ФИО</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <<label for="">Телефон</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-5">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control gb-input text-center" placeholder="Зе Филиал!">
+                                                </div>
+                                            </div>    
+                                        </div>
+                                        <div class="row ">
+                                            <div class="d-flex justify-content-start align-items-center px-3">
+                                                    <label for="">№</label>
+                                                    <input type="text" class="form-control gb-input w-55 ml-1" >
+                                                
+                                            </div>
+                                            <div class="d-flex justify-content-start align-items-center px-3">
+                                                    <label for="">Код</label>
+                                                    <input type="text" class="form-control gb-input ml-1 mw-120" >
+                                                
+                                            </div>     
+                                        </div>
+                                        <div class="row mt-5">
+                                            <div class="col-md-12">
+                                                <div class="grey-form">
+                                                    <div class="row ">
+                                                        <div class="col-md-12">
+                                                            <h4>Контакты</h4>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <label for="">ФИО</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <label for="">Адрес факт.</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <label>Телефон</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row justify-content-between">
+                                                        <div class="col_ot">
+                                                            <label for="">Email</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control ">
+                                                        </div>
+                                                        <div class="d-flex justify-content-start align-items-center col-sm-3 ml-auto">
+                                                            <label class="mr-2">Messenger</label>
+                                                            <select name="" id="" class="custom-select ">
+                                                                <option value="">skype</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-5">
+                                            <div class="col-md-12">
+                                                <div class="grey-form">
+                                                    <div class="row ">
+                                                        <div class="col-md-12">
+                                                            <h4>Директор филиала</h4>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                            <label for="">ФИО</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col_ot">
+                                                             
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row justify-content-between">
+                                                        <div class="col_ot">
+                                                            <label for="">Тел. моб.</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control ">
+                                                        </div>
+                                                        <div class="d-flex justify-content-start align-items-center col-sm-3 ml-auto">
+                                                            <label class="mr-2">Messenger</label>
+                                                            <select name="" id="" class="custom-select ">
+                                                                <option value="">skype</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row justify-content-start mt-3">
+                                                        <div class="col_ot">
+                                                            <label for="">Тел. раб.</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control ">
+                                                        </div>
+                                                        <div class="col-sm-3 ml-auto">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row justify-content-start mt-3">
+                                                        <div class="col_ot">
+                                                            <label for="">Email раб.</label>
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="col">
+                                                            
+                                                        </div>
+                                                        <div class="col-sm-3 ml-auto">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
                                     </div>
                                     <!-- #an -->
                                     <div class="tab-pane fade " id="rieltor" role="tabpanel" aria-labelledby="rieltor-tab">
@@ -783,25 +1021,25 @@
                                     <!-- #rieltor -->
                                 </div><!-- -->
                             </div>
-                            <div class="tab-pane fade active show" id="stor" role="tabpanel" aria-labelledby="stor-tab">
+                            <div class="tab-pane fade" id="stor" role="tabpanel" aria-labelledby="stor-tab">
                                 <div class="table-navbar">
                                     <ul class="nav nav-tabs" id="tabletab1" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link" id="xxmakler-tab" data-toggle="tab" href="#xxmakler" role="tab" aria-controls="xxmakler" aria-selected="false">ххМаклер</a>
+                                            <a class="nav-link active" id="xxmakler-tab" data-toggle="tab" href="#xxmakler" role="tab" aria-controls="xxmakler" aria-selected="true">ххМаклер</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="xxan-tab" data-toggle="tab" href="#xxan" role="tab" aria-controls="xxan" aria-selected="false">ххАН</a>
+                                            <a class="nav-link " id="xxan-tab" data-toggle="tab" href="#xxan" role="tab" aria-controls="xxan" aria-selected="false">ххАН</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" id="xxrieltor-tab" data-toggle="tab" href="#xxrieltor" role="tab" aria-controls="xxrieltor" aria-selected="false">ххРиелтор</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="xxmlist-tab" data-toggle="tab" href="#xxmlist" role="tab" aria-controls="xxmlist" aria-selected="true">Общий список Сторонних </a>
+                                            <a class="nav-link  " id="xxmlist-tab" data-toggle="tab" href="#xxmlist" role="tab" aria-controls="xxmlist" aria-selected="false">Общий список Сторонних </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="tab-content" id="xxmaklertabcontent">
-                                <div class="tab-pane fade" id="xxmakler" role="tabpanel" aria-labelledby="xxmakler-tab">
+                                <div class="tab-pane fade active show" id="xxmakler" role="tabpanel" aria-labelledby="xxmakler-tab">
                                     <div class="table-filter row justify-content-start">
                                         <div class="d-flex justify-content-start align-items-center px-3">
                                             <label for="" class="mr-3">Код</label>
@@ -1128,14 +1366,14 @@
                                       </div>
                                   </div>
                                 </div> <!-- #xxrieltor -->
-                                <div class="tab-pane fade active show" id="xxmlist" role="tabpanel" aria-labelledby="xxmlist-tab">
+                                <div class="tab-pane fade" id="xxmlist" role="tabpanel" aria-labelledby="xxmlist-tab">
                                    <div class="table-navbar">
                                     <ul class="nav nav-tabs" id="tabletab1" role="tablist">
                                         <li class="nav-item">
                                             <a class="nav-link active" id="list_xxmakler-tab" data-toggle="tab" href="#list_xxmakler" role="tab" aria-controls="list_xxmakler" aria-selected="true">Список ххМаклеров</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="list_xxan-tab" data-toggle="tab" href="#list_xxan" role="tab" aria-controls="list_xxan" aria-selected="false">Список ххАН</a>
+                                            <a class="nav-link " id="list_xxan-tab" data-toggle="tab" href="#list_xxan" role="tab" aria-controls="list_xxan" aria-selected="false">Список ххАН</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" id="list_xxrieltor-tab" data-toggle="tab" href="#list_xxrieltor" role="tab" aria-controls="list_xxrieltor" aria-selected="false">Список ххРиелторов</a>
