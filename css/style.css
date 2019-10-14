@@ -41,6 +41,10 @@ input:invalid,textarea:invalid{-moz-box-shadow:0 0 5px red;-webkit-box-shadow:0 
 /*body {background:url("../images/im_bg.gif") left top repeat;}*/
  
 /* ------------------------- Generic */
+html, body{
+  width:100%;
+  height:auto;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -2122,6 +2126,84 @@ text-decoration:none;
   text-decoration:none;
 }
 
+
+
+
+/* NEW STYLE */
+
+.ax_text_field{}
+.ax_text_field input[type="text"]{
+  font-weight: normal;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 32px!important;
+    border-radius: 0px;
+    padding: 0px 10px!important;
+}
+.ax_droplist select, select{
+font-weight: normal;
+    font-size: 12px!important;
+    color: #000000;
+    background-color: #FFFFFF!important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 32px!important;
+    border-radius: 0px;
+    padding: 0px 10px!important;
+}
+#u48{
+  left:400px;
+}
+#u677{
+  font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #434343;
+    width: 100px;
+}
+#u678_input{
+  left:0px;
+  border: 3px solid #FF0800!important;
+}
+#u690 span, #u802 span{
+color: #FF0800;
+}
+#u691_input, #u800_input{
+  border: 3px solid #FF0800!important;
+}
+.ax_shape{
+  border:0px!important;
+}
+.ax_checkbox input[type="checkbox"]{
+  top: 6px!important;
+}
+#u311{
+  background: #F7FADB!important;
+    line-height: 50px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    text-align: center!important;
+    width: 740px!important;
+    height:50px!important;
+}
+#u123_input{
+  line-height: 55px;
+    background: #2F6C8F;
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 0px;
+    margin: 25px 0px;
+    border: 2px solid #2F6C8F!important;
+}
+#u123{
+  left:0px;
+}
 /* ------------------------- Popups */
  
 /* ------------------------- Media Queries */
