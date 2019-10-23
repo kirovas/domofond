@@ -113,7 +113,7 @@
                                           <div class="d-flex justify-content-start align-items-center col-12">
                                            <label for="" class="mr-3 mw-101">Клиент</label>
                                            <input type="text" class="form-control border-red w-220 ml-auto" value="000061-2">
-                                           <span class="ml-2"><img src="images/dot-btn-v.png" alt=""></span>
+                                           <span class="ml-2 clients-modal" data-toggle="modal" data-target="#clientsModal"><img src="images/dot-btn-v.png" alt=""></span>
                                         </div>
                                       </div>
                                       <div class="table-filter row justify-content-between pt-0">
@@ -1147,6 +1147,83 @@
             </div>
         </div>
     </div>
+    <!-- modal search clients -->
+<!-- Modal -->
+<div class="modal fade" id="clientsModal" tabindex="-1" role="dialog" aria-labelledby="clientsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body p-3">
+        <div class="table-filter row ">
+        <div class="col-3">
+          <div class="filter-search">
+            <input type="text" placeholder="Поиск" class="form-control">
+            <button class="btn btn-search"><img src="images/magnifying-glass.png" alt=""></button>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-start align-items-center">
+          <label for="" class="mw-101">Тип Клиента</label>
+          <select class="custom-select" id="dol">
+            
+          </select>
+        </div>
+        <div class="col-3">
+          
+          <select class="custom-select" id="dol">
+            
+          </select>
+        </div>
+      </div>
+      <div class="table-filter row align-items-end mt-3 pt-0">
+         <div class="pages-link ml-auto pr-3 ">
+              <span>Страницы:</span>
+              <a href="#">1 </a>
+              <a href="#"><img src="images/chevron-right.png" alt=""></a>
+            </div>
+       </div>
+        <div class="table-wrap ">
+                    <div class="table-responsive">
+                     <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Код</th>
+                                <th>ЧС</th>
+                                <th>Ввод</th>
+                                <th>ФИО</th>
+                                <th>Тел.</th>
+                                <th>Тел.</th>
+                                <th>E-mail</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>00061-1</td>
+                                <td><input type="checkbox"></td>
+                                <td>31.05.2018</td>
+                                <td>Клиент _8 кав кварт 1ф и 2ф</td>
+                                <td>+38 (096) 123 45 67</td>
+                                <td>+38 (096) 123 45 67 </td>
+                                <td>client@gmail.com </td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                 </div>
+                 <div class="table-filter row align-items-end mt-0 pt-0">
+                   <div class="pages-link ml-auto pr-3">
+                        <span>Страницы:</span>
+                        <a href="#">1 </a>
+                        <a href="#"><img src="images/chevron-right.png" alt=""></a>
+                      </div>
+                 </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- modal search clients -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
