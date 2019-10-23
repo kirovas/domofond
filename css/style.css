@@ -1979,7 +1979,7 @@ display:block;
   border: 3px solid #FF0800;
 }
 .form-control.border-bl, .table-filter input.form-control.border-bl, select.custom-select.border-bl{
-  border: 3px solid #2F6C8F;
+  border: 3px solid #2F6C8F!important;
 }
 label.nf-lb{
   font-weight: 800;
@@ -2007,6 +2007,10 @@ text-decoration:none;
 label.nf-rl{
   color:#FF0800;
 }
+.mw-150{
+  max-width:150px;
+  min-width:150px;
+}
 .mw-101{
   max-width:100px;
   min-width:100px;
@@ -2030,6 +2034,18 @@ label.nf-rl{
 .mw-60{
   max-width:60px;
   min-width:60px;
+}
+.mw-50{
+  max-width:50px;
+  min-width:50px;
+}
+.mw-45{
+  max-width:45px;
+  min-width:45px;
+}
+.mw-30{
+  max-width:30px;
+  min-width:30px;
 }
 .table-filter select.mw-70{
   max-width:70px;
@@ -2145,10 +2161,41 @@ text-decoration:none;
 .clients-modal{
   cursor:pointer;
 }
-
-
-
-
+.newform span.pluss{
+  width:22px;
+  height:22px;
+  line-height:22px!important;
+  text-align: center;
+  display:inline-block;
+  border-radius:50%;
+  background: #DEF9B8;
+  color:#000;
+  font-size:14px;
+  cursor:pointer;
+  margin:0px 15px;
+}
+.btn-nf{
+  height: 52px;
+  background: #2F6C8F;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+padding:0px 30px;
+border:1px solid #2F6C8F;
+}
+.btn-nf:hover{
+  background:#fff;
+  color:#2F6C8F;
+  text-decoration: none;
+}
+.custom-control-label::before{
+ 
+}
 /* NEW STYLE */
 
 
@@ -2176,6 +2223,9 @@ color: #000000;
  }
  #clientsModal .modal-content{
   background: #F3F3F3;
+ }
+ .nf-gr .form-control.gb-input{
+  background: #D0D0D0!important;
  }
 /* ------------------------- Media Queries */
  
