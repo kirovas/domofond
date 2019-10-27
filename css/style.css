@@ -2004,12 +2004,20 @@ text-decoration:none;
 .nf-btn_grey:hover{
   text-decoration:none;
 }
-label.nf-rl{
-  color:#FF0800;
+.nf-rl{
+  color:#FF0800!important;
+}
+.mw-170{
+  max-width:170px;
+  min-width:170px;
 }
 .mw-150{
   max-width:150px;
   min-width:150px;
+}
+.mw-140{
+  max-width:140px;
+  min-width:140px;
 }
 .mw-101{
   max-width:100px;
@@ -2098,6 +2106,10 @@ border-radius:0px;
 color: #FFFFFF;
 margin:25px 0px
 }
+.btn-blue.btn-small{
+  line-height: 44px;
+  margin:0px;
+}
 .nf-heading{
   background: #D8FBB2;
   line-height: 50px;
@@ -2127,6 +2139,7 @@ font-size: 14px;
 color: #FFFFFF;
 padding:0px 40px;
 text-decoration:none;
+border-radius:0px;
 }
 .btn-clear:hover{
   text-decoration:none;
@@ -2195,6 +2208,44 @@ border:1px solid #2F6C8F;
 }
 .custom-control-label::before{
  
+}
+.search-field{
+  position:relative;
+}
+.search-field .btn-search{
+  background:transparent;
+  position:absolute;
+  top:7px;
+  right:10px;
+  border:0px;
+}
+.nf-bl{
+  color: #116D92!important;
+}
+.btn-rounded{
+  width: 22px;
+height: 20px;
+background: #2F6C8F;
+text-align:center;
+border-radius:50%;
+border:0px;
+padding:0px;
+}
+.btn-vbr{
+  display: block;
+    text-align: center;
+    background: #2F6C8F;
+    border: 2px solid #2F6C8F;
+    line-height: 37px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.btn-vbr:hover{
+  background: transparent;
+    color: #2F6C8F;
+    text-decoration: none;
 }
 /* NEW STYLE */
 
