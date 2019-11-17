@@ -56,4 +56,8 @@ $('.date input').datepicker({
 $('.sidebar .navbar-toggler').click(function(){
   $('.sidebar-inner').slideToggle();
 });
+
+if($('.photo-zoom').length){
+  $('.photo-zoom').magnificPopup({type:'image'});
+}
 });
