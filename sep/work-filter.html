@@ -11,7 +11,15 @@
                                     <a class="nav-link" id="clients3-tab" data-toggle="tab" href="#clients3" role="tab" aria-controls="clients3" aria-selected="false">Архив</a>
                                 </li>
                                 <div class="ml-auto">
-                                    <a href="#" class="btn control-btn color-blue mr-3"><img src="images/save-2-w.png" alt="">Сохранить</a>
+                                    <div class="d-flex justify-content-end align-items-center"> 
+                   
+                  
+                  <a href="#" class="btn control-btn color-blue mr-1"><img src="images/save-2-w.png" alt="">Сохранить</a>
+                  <a href="#" class="btn control-btn color-blue mr-1"><img src="images/garbage-w.png" alt="">Удалить</a>
+                  <button class="btn control-btn color-blue"><img src="images/folder-w.png" alt="">Добавить в Архив</button>
+                
+               
+                 </div>
                                 </div>
                             </ul>
                         </div>
@@ -474,7 +482,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="btn-wrap">
-                                                            <a href="#" class="btn btn-block btn-blue btn-small">Просмотр параметров</a>
+                                                            <a href="#" class="btn btn-block btn-blue btn-small" data-toggle="modal" data-target="#filterModal" id="par-modal">Просмотр параметров</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -694,7 +702,7 @@
                                 </div>
                                       <div class="table-filter row justify-content-between">
                                             <div class="d-flex justify-content-start align-items-center px-3">
-                                            <label for="" class="mr-3 nf-lb">Код: 738326719584726586092738601923</label>
+                                            <label for="" class="mr-3 nf-lb mw-385">Код: 738326719584726586092738601923</label>
                                           </div>
                                           <div class="d-flex justify-content-start align-items-center px-3">
                                             <label for="" class="nf-rl mr-2">Статус</label>
@@ -964,10 +972,16 @@
                                                 <div class="nf-gr">
                                                      <div class="row">
                                                          <div class="d-flex justify-content-between align-items-center mb-2 col">
-                                                             <button class="btn btn-ads">Реклама на DF</button>
-                                                             <button class="btn btn-ads">Реклама на 88</button>
+                                                             <button class="btn btn-ads" id="tx-df">Реклама на DF</button>
+                                                             <button class="btn btn-ads" id="tx-88">Реклама на 88</button>
                                                              <button class="btn-ads-del"><img src="images/btn-ads-del.png" alt=""></button>
                                                          </div>
+                                                     </div>
+                                                     <div class="textarea-open" id="tx-88_open">
+                                                         <textarea name="" id="" cols="30" rows="10" class="form-control h-100"></textarea>
+                                                     </div>
+                                                     <div class="textarea-open" id="tx-df_open">
+                                                         <textarea name="" id="" cols="30" rows="10" class="form-control h-100"></textarea>
                                                      </div>
                                                      <div class="row">
                                                          <div class="col-md-6">
@@ -1514,8 +1528,8 @@
                                             </div>
                                             <div class="row">
                                                 <div class="d-flex justify-content-start align-items-center mb-2 col-md-4">
-                                                    <button class="btn btn-ads mr-2 mw-120">2ГИС</button>
-                                                    <button class="btn btn-ads mw-120">Google</button>
+                                                    <button class="btn btn-ads mr-2 mw-120" data-toggle="modal" data-target="#mapModal">2ГИС</button>
+                                                    <button class="btn btn-ads mw-120" data-toggle="modal" data-target="#mapModal">Google</button>
 
                                                 </div>
                                                 <div class="d-flex justify-content-end align-items-center mb-2 col-md-6 ml-auto">
@@ -2114,7 +2128,7 @@
    </div>
    <div class="row mt-3">
     <div class="col-12">
-        <p><strong>Реклама в ДомоФонд</strong></p>
+        <label for=""><strong>Реклама в ДомоФонд</strong></label>
     </div>
        <div class="col-md-6 ">
            <div class="for-text col">
@@ -3587,7 +3601,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">КУХНЯ 2</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3595,7 +3609,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">ГОСТИНАЯ 1</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3603,7 +3617,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">ГОСТИНАЯ 2</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3611,7 +3625,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">ПРИХОЖАЯ 1</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3619,7 +3633,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">СПАЛЬНЯ 1</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3627,7 +3641,7 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">СПАЛЬНЯ 2</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
@@ -3635,11 +3649,107 @@
         <div class="col-md-3">
             <div class="photo-wrap">
                 <img src="images/photo-1.png" alt="">
-                <div class="photo-name">КУХНЯ 1</div>
+                <div class="photo-name">СПАЛЬНЯ 3</div>
                 <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
                 <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
             </div>
-        </div>    
+        </div> 
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ПРИХОЖАЯ 2</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">С/У 1</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">С/У 2</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ВИД ИЗ ОКНА 1</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">МАШИНОМЕСТО</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ВИД НА ДОМ</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ПОДЪЕЗД ВНУТРИ</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ВИД ИЗ ОКНА 2</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ВИДЕО 1</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ВИДЕО 2</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ПАНОРАМА 1</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="photo-wrap">
+                <img src="images/photo-1.png" alt="">
+                <div class="photo-name">ПАНОРАМА 2</div>
+                <a href="images/photo-1.png" class="photo-zoom"><img src="images/photo-zoom.png" alt=""></a>
+                <a href="#" class="photo-close"><img src="images/photo-close.png" alt=""></a>
+            </div>
+        </div>   
     </div>
     <div class="row mt-3">
         <div class="col-md-12 mb-2">
@@ -4418,10 +4528,10 @@
                 <span>дн.</span>
             </div> 
             <div class="btn-wrap mt-3">
-                <a href="#" class="btn-block btn btn-red">История цены</a>
+                <a href="#" class="btn-block btn btn-red" data-toggle="modal" data-target="#pricehisModal">История цены</a>
             </div>
             <div class="btn-wrap mt-3">
-                <a href="#" class="btn-block btn btn-form">История всех изменений Заявки</a>
+                <a href="#" class="btn-block btn btn-form" data-toggle="modal" data-target="#hiszavModal">История всех изменений Заявки</a>
             </div>
 
         </div>
@@ -4677,7 +4787,7 @@
             </div>
             <div class="col-md-6">
                 <div class="btn-wrap mb-2">
-                    <a href="#" class="btn-block btn btn-red">Подбор Заявок на Покупку</a>
+                    <a href="#" class="btn-block btn btn-red" data-toggle="modal" data-target="#podzavModal">Подбор Заявок на Покупку</a>
                 </div>
                 <div class="d-flex justify-content-start align-items-center mb-2">
                     <label for="" class="mw-150 nf-rl">Результат подборки</label>
@@ -5482,7 +5592,7 @@
                 <input type="text" class="form-control mw-150 mr-2">
                 <div class="search-field w-100">
                      <input type="text" class="form-control">
-                     <button class="btn-search"><img src="images/magnifying-glass.png" alt=""></button>
+                     <button class="btn-search" data-toggle="modal" data-target="#pr2Modal"><img src="images/magnifying-glass.png" alt=""></button>
                  </div>
             </div>
             <div class="d-flex justify-content-start align-items-center mb-2">
@@ -5531,7 +5641,7 @@
                 <input type="text" class="form-control mw-150 mr-2">
                 <div class="search-field w-100">
                      <input type="text" class="form-control">
-                     <button class="btn-search"><img src="images/magnifying-glass.png" alt=""></button>
+                     <button class="btn-search" data-toggle="modal" data-target="#pk2Modal"><img src="images/magnifying-glass.png" alt=""></button>
                  </div>
             </div>
             <div class="d-flex justify-content-start align-items-center mb-2">

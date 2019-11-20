@@ -60,4 +60,29 @@ $('.sidebar .navbar-toggler').click(function(){
 if($('.photo-zoom').length){
   $('.photo-zoom').magnificPopup({type:'image'});
 }
+
+$('#extra1').change(function(){
+    if($(this).is(":checked")) {
+        $('#par-modal').attr('data-target', '#filterModal1');
+        
+    }else {
+      $('#par-modal').attr('data-target', '#filterModal');
+    }
+});
+$('#det1').change(function(){
+    if($(this).is(":checked")) {
+        $('#par-modal').attr('data-target', '#filterModal');
+        
+    }
+});
+$('#tx-df').click(function(){
+  $('#tx-df_open').slideToggle();
+});
+$('#tx-88').click(function(){
+  $('#tx-88_open').slideToggle();
+});
+$('.btn-ads-del').click(function(){
+  $('#tx-88_open').hide();
+  $('#tx-df_open').hide();
+});
 });
