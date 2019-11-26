@@ -2096,6 +2096,10 @@ text-decoration:none;
   max-width:30px;
   min-width:30px;
 }
+.mw-17{
+  max-width:17px;
+  min-width:17px;
+}
 .table-filter select.mw-70{
   max-width:70px;
   min-width:70px;
@@ -2714,6 +2718,19 @@ line-height: 20px;
 color: #191919;
 margin-bottom:20px;
 opacity: 0.4;
+}
+.nf1 .nav-tabs .nav-item.show .nav-link, .nf1 .nav-tabs .nav-link.active{
+  background: #B9BCF8;
+}
+
+.nf1 .nf-heading{
+  background: #B9BCF8;
+}
+.nf1 table thead tr th{
+  background: #B9BCF8;
+}
+.nf1 .control-btn.green {
+    background: #B9BCF8;
 }
 
 /* NEW STYLE */
