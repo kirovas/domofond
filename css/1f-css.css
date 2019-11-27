@@ -1,0 +1,180 @@
+input[type='text'] {
+    width: 53px;
+    margin: 2px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 32px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    display: block;
+}
+.in_page {
+    background: #F9F9F9!important;
+}
+#topMain{
+    border:0px;
+    background-color:transparent;
+}
+.main_title {
+    background: #EEFFFF;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #B9BCF8;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.price_P {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+#characters_p {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+#characters_div{
+    border:0px;
+}
+.secondRightPrice{
+    border:0px;
+}
+#levels_div{
+    border:0px;
+}
+#secondRightBottom{
+    background: #E4E4E4;
+    border:0px;
+    height:auto;
+}
+select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e) no-repeat right .75rem center/8px 10px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 32px;
+    border-radius: 0px;
+    padding: 0px 10px;
+
+}
+.secondRightBottom_div1 {
+    display: flex;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+#levels_div {
+    
+    border: 0px;
+}
+#for_P {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 7px;
+}
+#localities_P {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+#mainFor{
+    background: #E4E4E4;
+    border: 0px;
+}
+#env_P {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 7px;
+}
+#mainLocalities {
+    border:0px;
+}
+.mainFlatLocation, .mainFilling{
+    border:0px;
+}
+#dop_characters {
+    width: 100%;
+}
+#mainDopInfo {
+    border: 0;
+     background: #E4E4E4;
+    margin-top: 10px;
+}
+.mainOrientation {
+    border: 0;
+     background: #E4E4E4;
+}
+.buttonsFF{
+
+}
+#clearButton {
+    color: red;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    background: #FF0800;
+    border: 2px solid #FF0800;
+    line-height: 37px;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    text-decoration: none;
+    border-radius: 0px;
+    box-shadow:none;
+}
+#forRentButton{
+    display: inline-block;
+    text-align: center;
+    background: #2F6C8F;
+    border: 2px solid #2F6C8F;
+    line-height: 37px;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    text-decoration: none;
+    box-shadow:none;
+}
+.topMenuBlock{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 0px;
+    color: #000000;
+    padding: 8px 20px
+}
+.topMenuBlockActive {
+    background: #B9BCF8;
+    font-weight: 400;
+}
