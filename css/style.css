@@ -2732,7 +2732,9 @@ opacity: 0.4;
 .nf1 .control-btn.green {
     background: #B9BCF8;
 }
-
+input:read-only{
+  background:#fff;
+}
 /* NEW STYLE */
  #filterModal .modal-dialog{
   max-width:1100px;
