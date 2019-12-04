@@ -171,7 +171,7 @@ background: #2F6C8F;
     display: block;
     text-align: center;
     background: #2F6C8F;
-    border: 2px solid #2F6C8F;
+    border: 2px solid #2F6C8F!important;
     line-height: 37px;
     font-size: 14px;
     color: #FFFFFF;
@@ -184,7 +184,7 @@ background: #2F6C8F;
     display: block;
     text-align: center;
     background: #2F6C8F;
-    border: 2px solid #2F6C8F;
+    border: 2px solid #2F6C8F!important;
     line-height: 37px;
     font-size: 14px;
     color: #FFFFFF;
@@ -195,9 +195,48 @@ background: #2F6C8F;
 #filter_maps{
     display:block;
 }
+#filter_gmaps{
+    display: block!important;
+    text-align: center;
+    background: #2F6C8F!important;
+    border: 2px solid #2F6C8F!important;
+    line-height: 37px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    text-decoration: none;
+    box-shadow: none;
+    width: 100%;
+}
 #myLittleRentVibTableFirst tr:first-child td, #myLittleArchiveTable  tr:first-child td{
     background: #B9BCF8;
 }
 #myLittleRentVibTableFirst td, #myLittleRentVibTableSecond td{
     border:1px solid #ddd;
+}
+.infrastructure {
+    width: 170px;
+}
+#undergroundOne, #undergroundTwo{
+    width: 135px;
+}
+#undergroundLine, #undergroundLineTwo{
+    width: 185px;
+}
+.list_terms{
+    border:0px;
+}
+#list_long input[type='text'], #list_short input[type='text'] {
+  
+    display: inline-block;
+}
+#filter_block_locality{
+    border:0px;
+}
+#priceUSD, #priceEU, #priceUAH {
+    width: 60px;
+    display: inline-block;
+}
+#business_block_1{
+    width: 100%;
 }
