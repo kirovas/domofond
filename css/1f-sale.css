@@ -89,6 +89,10 @@ background: #2F6C8F;
     background: transparent!important;
     width:auto!important;
 }
+#topMenuRent .active{
+    background: #B9BCF8!important;
+    font-weight:400!important;
+}
 #addressRents{
     width:auto;
 }
