@@ -78,6 +78,9 @@ background: #2F6C8F;
 #topMenuRentFirstRow{
 
 }
+#topMenuRent{
+    width: 100%;
+}
 .myTextTopMenu{
     border: 0px;
     font-weight: normal;
@@ -212,7 +215,7 @@ background: #2F6C8F;
     box-shadow: none;
     width: 100%;
 }
-#myLittleRentVibTableFirst tr:first-child td, #myLittleArchiveTable  tr:first-child td{
+#myLittleRentVibTableFirst tbody#myLittleRentVibTableFirstTb tr:first-child td, #myLittleArchiveTable  tbody tr:first-child td{
     background: #B9BCF8;
 }
 #myLittleRentVibTableFirst td, #myLittleRentVibTableSecond td{
@@ -243,4 +246,179 @@ background: #2F6C8F;
 }
 #business_block_1{
     width: 100%;
+}
+#addressTimeNote{
+    width: 458px;
+}
+#addressNote{
+    width: 748px;
+}
+
+#clientTable tbody tr:first-child td{
+    background: #B9BCF8;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    border-bottom-width: 1px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 16px 0px;
+    white-space: nowrap;
+}
+#clientTable{
+    width:100%;
+}
+.findIcon {
+    left: 280px;
+    position: absolute;
+    height: 22px;
+    cursor: pointer;
+    top: 13px;
+}
+#clientTable tbody tr td {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 16px 0px;
+    white-space: nowrap;
+}
+#leftBlock {
+    width: 50%;
+}
+#rightBlock{
+    width: 50%;
+    margin-right: 0!important;
+}
+#locatedAt {
+    width: 350px;
+    margin-left: 10px;
+    float: left;
+}
+.general_block_10 {
+    height: auto; 
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    
+}
+.general_block_101 {
+    height: auto; 
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+}
+#projectSeriesOne {
+    width: 259px;
+    /* float: right; */
+    margin-left: auto;
+    margin-right: 6px;
+}
+#project {
+    width: 259px;
+     margin-left: auto;
+    margin-right: 6px;
+}
+#leftBlock_2{
+    width:100%;
+}
+#leftBlock_3{
+    width:100%;
+}
+#leftBlock_4{
+    width:100%;
+}
+#leftBlock_5 {
+    width:100%;
+}
+#general_block_16 {
+    width: 100%;
+    height: max-content;
+    margin-top: 5px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+#licenseBlock{
+    width: 100%;
+}
+#business_block_4{
+    width: 100%;
+}
+.businessBlock {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#ininhabitedCap {
+    float: left;
+    margin-left: 10px;
+    max-width: 80px;
+    min-width: 80px;
+}
+#liquid, #urgent, [for="liquid"], [for="urgent"] {
+    margin-top: 5px;
+    float: left;
+    margin-right: 8px;
+}
+#livingRoomSquareMeter{
+    margin-left: 36px;
+}
+#bedroomOneSquareMeter{
+    margin-left: 15px;
+}
+#filling_p_5{
+    margin-left: 20px;
+}
+#filling_p_6{
+    margin-left: 10px;
+}
+#restroomSquareTwo{
+    margin-left: 0px;
+}
+.labelForCheckbox {
+    float: left;
+    margin-top: 0px;
+}
+#adsu233{
+        top: 535px;
+}
+#adsu236{
+    top: 535px;
+}
+.payingContent input[type='text']{
+    display:inline-block;
+}
+.payingBlock label[for="payPercentBuyOne"] {
+    min-width: 73px;
+}
+input[type='text']+label[for="payPercentBuyOne"] {
+    min-width: 73px;
+}
+input[type='text']+label[for="payPercentBuyOne"] {
+    min-width: initial;
+}
+label[for="payPercentBuyTwo"] {
+    min-width: 73px;
+}
+input[type='text']+label[for="payPercentBuyTwo"] {
+    min-width: initial;
+}
+#map {
+    height: 70%;
+    width: 100%;
+}
+#map + div{
+    width:100%;
+}
+#mapBtns{
+        display: flex;
+}
+#gMapContainer{
+    display:block;
 }
