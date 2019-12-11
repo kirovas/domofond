@@ -139,6 +139,8 @@ background: #2F6C8F;
     margin-top: 5px;
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
 }
 #leftBlock{
     border:0px;
@@ -215,8 +217,20 @@ background: #2F6C8F;
     box-shadow: none;
     width: 100%;
 }
-#myLittleRentVibTableFirst tbody#myLittleRentVibTableFirstTb tr:first-child td, #myLittleArchiveTable  tbody tr:first-child td{
+#myLittleRentVibTableFirst tbody#myLittleRentVibTableFirstTb tr:first-child td, #myLittleArchiveTable  tbody:first-child tr td{
     background: #B9BCF8;
+}
+#myLittleTableMakler tr:first-child td{
+   background: #B9BCF8;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    border-bottom-width: 1px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 16px 0px;
+    white-space: nowrap;
 }
 #myLittleRentVibTableFirst td, #myLittleRentVibTableSecond td{
     border:1px solid #ddd;
@@ -308,6 +322,7 @@ background: #2F6C8F;
 .general_block_101 {
     height: auto; 
     margin-top: 1px;
+    float:none;
     display: flex;
     align-items: center;
 }
@@ -324,6 +339,7 @@ background: #2F6C8F;
 }
 #leftBlock_2{
     width:100%;
+    height:auto;
 }
 #leftBlock_3{
     width:100%;
@@ -421,4 +437,17 @@ input[type='text']+label[for="payPercentBuyTwo"] {
 }
 #gMapContainer{
     display:block;
+}
+#pluseLift{
+    margin-right: 0px;
+}
+.general_block_11 {
+    width: 100%;
+    height: max-content;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+#findIconMakler{
+    display: inline-block;
 }
