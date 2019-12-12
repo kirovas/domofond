@@ -451,3 +451,7 @@ input[type='text']+label[for="payPercentBuyTwo"] {
 #findIconMakler{
     display: inline-block;
 }
+#popup1Makler{
+    top: 0px;
+    padding-top: 30px;
+}
