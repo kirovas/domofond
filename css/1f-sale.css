@@ -110,7 +110,7 @@ background: #2F6C8F;
     color: #000000;
     border-bottom-width: 1px;
     border: 1px solid rgba(0,0,0,0.1);
-    padding: 16px 0px;
+    padding: 16px 10px;
     white-space: nowrap;
 }
 #ads table tr:first-child td{
@@ -156,7 +156,13 @@ background: #2F6C8F;
     border:0px;
 }
 #adsu232, #adsu235{
-    top: 560px;
+    top: 630px;
+}
+#adsu233 {
+    top: 605px;
+}
+#adsu236 {
+    top: 605px;
 }
 #filter_right_top, #filter_right_second, #filter_right_third, #filter_others{
     border:0px!important;
@@ -262,10 +268,10 @@ background: #2F6C8F;
     width: 100%;
 }
 #addressTimeNote{
-    width: 458px;
+    width: 100%;
 }
 #addressNote{
-    width: 748px;
+    width: 100%;
 }
 
 #clientTable tbody tr:first-child td{
@@ -401,12 +407,7 @@ background: #2F6C8F;
     float: left;
     margin-top: 0px;
 }
-#adsu233{
-        top: 535px;
-}
-#adsu236{
-    top: 535px;
-}
+
 .payingContent input[type='text']{
     display:inline-block;
 }
@@ -426,17 +427,21 @@ input[type='text']+label[for="payPercentBuyTwo"] {
     min-width: initial;
 }
 #map {
-    height: 70%;
-    width: 100%;
+    height: 70%!important;
+    width: 100%!important;
 }
 #map + div{
-    width:100%;
+    width:100%!important;
 }
 #mapBtns{
         display: flex;
 }
 #gMapContainer{
-    display:block;
+    display:block!important;
+}
+#closeLine{
+	min-width: 165px;
+	height:auto!important;
 }
 #pluseLift{
     margin-right: 0px;
@@ -454,4 +459,121 @@ input[type='text']+label[for="payPercentBuyTwo"] {
 #popup1Makler{
     top: 0px;
     padding-top: 30px;
+}
+input[type="date"]{
+    /* margin: 2px; */
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 32px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    display: block;
+}
+#business_block_5{
+	width:100%;
+}
+#business_block_7 {
+    float: right;
+    width: 70%;
+    margin-left: 0px;
+    /* border: 1px solid #a6a6a6; */
+}
+#business_block_6 {
+    float: left;
+    width: 30%;
+    margin-top: 2px;
+    /* border: 1px solid #a6a6a6; */
+}
+#business_block_8{
+	width: 100%;
+}
+#businessBetterFitOne, #businessBetterFitTwo, #businessBetterFitThree, #businessBetterFitFour, #businessBetterFitFive, #businessBetterFitSix, #businessBetterFitSeven, #businessBetterFitEight, #businessBetterFitNine{
+	width: 33%;
+}
+.separateLine{
+	left: 68%;
+}
+.networksBlock {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#ads table td{
+
+}
+.list_terms{
+	border:0px!important;
+}
+#filter_block_locality{
+	border:0px!important;
+}
+#addressFirstName, #addressSurname, #addressMiddleName, #addressMessenger{
+    width: 100%;
+}
+#addressPhoneNumberOne, #addressPhoneNumberTwo, #addressPhoneNumberThree, #addressEmail{
+    width: 100%; 
+}
+#address_p_21{
+    min-width: 60px;
+}
+#address_right_block{
+    width: 68%;
+}
+#addressRegion, #addressLocality, #addressStreet, #addressCorner{
+    width: 100%;
+}
+#address_p_2{
+    min-width: 30px;
+}
+#addressDistrictRegion, #addressDistrictStret{
+    width: 100%;
+}
+#address_p_5{
+    min-width:60px;
+}
+#address_p_1{
+    min-width: 40px;
+}
+#address_p_6 {
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+    font-weight: bold;
+    min-width: 60px;
+}
+#address_p_8{
+    min-width: 50px;
+}
+#address_p_9{
+    min-width: 20px;
+}
+#address_p_10 {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    min-width: 35px;
+}
+#address_p_15{
+    min-width: 36px;
+}
+#address_block_1 .addressBlock:last-child{
+    justify-content: space-between;
+}
+#address_block_2 .addressBlock{
+    justify-content: space-between;
+}
+#bedroomThree{
+    margin-left: 46px;
+}
+.networksBlock{
+    display: flex;
+    align-items: center;
+}
+#utilityRoomNameTwo{
+    width:120px;
 }
