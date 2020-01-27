@@ -1719,6 +1719,9 @@ color: #000000;
 .custom-control-label::before{
   left: -1.1rem;
 }
+.custom-control-label::after{
+	left: -1.1rem;
+}
 .page-mail .table-wrap table thead tr th{
   background: #A6D5A8;
   padding:8px 0px;
