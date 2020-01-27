@@ -1492,9 +1492,10 @@ line-height: 26px;
 color: #000000;
 }
 label{
-    font-weight: normal;
-font-size: 12px;
-line-height: 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 color: #000000;
 }
 .table-filter .form-check input{
@@ -1712,17 +1713,23 @@ color: #000000;
  background: #A6D5A8;
   
 }
-
+.custom-control{
+  padding-left: 1rem;
+}
+.custom-control-label::before{
+  left: -1.1rem;
+}
 .page-mail .table-wrap table thead tr th{
   background: #A6D5A8;
   padding:8px 0px;
 }
 .custom-control-label{
-  font-weight: normal;
-font-size: 12px;
-padding-top: 5px!important;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
 line-height: 17px;
-line-height: 26px;
+padding-top: 5px!important;
+
 color: #000000;
 }
 .page-mail textarea{
@@ -1790,9 +1797,10 @@ margin-top:15px;
   background: #C1FFF0;
 }
 .table-filter label{
-  font-weight: normal;
-font-size: 12px;
-line-height: 15px;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
 color: #000000;
 }
 
@@ -1839,9 +1847,10 @@ color: #434343;
 margin-bottom:15px;
 }
 .page-agree .partner-wrap label{
-  font-weight: normal;
-font-size: 12px;
-line-height: 15px;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
 color: #000000;
 }
 .page-agree .partner-wrap input.form-control{
@@ -1914,9 +1923,9 @@ display:block;
   font-size: 14px;
   line-height: 17px;
   height: 32px;
-  color: #000;
   text-decoration: none;
-  background: #C0C0C0;
+  background: #116D92;
+    color: #FFFFFF;
 }
 .control-btn img{
   display: inline-block;
@@ -2032,6 +2041,10 @@ text-decoration:none;
   max-width:160px;
   min-width:160px;
 }
+.mw-155{
+  max-width:155px;
+  min-width:155px;
+}
 .mw-150{
   max-width:150px;
   min-width:150px;
@@ -2076,6 +2089,10 @@ text-decoration:none;
   max-width:90px;
   min-width:90px;
 }
+.mw-95{
+  max-width:95px;
+  min-width:95px;
+}
 .mw-60{
   max-width:60px;
   min-width:60px;
@@ -2101,8 +2118,8 @@ text-decoration:none;
   min-width:17px;
 }
 .table-filter select.mw-70{
-  max-width:70px;
-  min-width:70px;
+  max-width:50px;
+  min-width:50px;
 }
 .table-filter select.mw-101{
   max-width:100px;
@@ -2168,7 +2185,7 @@ margin:25px 0px
 }
 .newform span{
   font-weight: normal;
-    font-size: 12px;
+  font-size: 14px;
     line-height: 26px;
     color: #000000;
 }

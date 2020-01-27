@@ -236,3 +236,31 @@ background: #B9BCF8;
     background:transparent;
    font-weight: 400;
 }
+#newAndView .custom-control-label{
+    padding-top:0px!important;
+}
+.btn-save{
+display: inline-block;
+    border: 0px;
+    border-radius: 0px;
+    vertical-align: top;
+    padding: 6px 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    height: 32px;
+    background: #116D92;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#topIcons {
+    margin-left: auto;
+    display: flex;
+    width: 35%;
+    }
+    a#saveButton{
+        margin-left:10px;
+    }
+#backgr_map{
+    background:rgba(0,0,0,0.7);
+}
