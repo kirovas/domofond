@@ -921,7 +921,7 @@ input.form-control:focus, textarea.form-control:focus{
 }
 select.custom-select{
   font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1196,7 +1196,7 @@ color:#000;
 
 .filter-search input.form-control,.table-filter input.form-control, .form-group input.form-control, .table-filter select, .form-control{
   font-weight: normal;
-font-size: 12px;
+font-size: 14px;
 color: #000000;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1206,7 +1206,7 @@ padding:0px 10px;
 }
 .table-filter textarea, .tab-pane textarea{
   font-weight: normal;
-font-size: 12px;
+font-size: 14px;
 color: #000000;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1217,7 +1217,7 @@ padding:10px 10px;
   box-shadow:none;
 }
 .table-filter .form-control::placeholder, .tab-pane textarea::placeholder{
-  font-size: 12px;
+  font-size: 14px;
 color: #000000;
 }
 .table-filter .form-control:focus::placeholder, .tab-pane textarea:focus::placeholder{
@@ -1243,7 +1243,7 @@ white-space: nowrap
 }
 .table-wrap table tbody tr td{
   font-weight: normal;
-font-size: 12px;
+font-size: 14px;
 line-height: 15px;
 text-align:center;
 color: #000000;
