@@ -2124,6 +2124,10 @@ text-decoration:none;
   max-width:50px;
   min-width:50px;
 }
+.table-filter select.mw-80{
+  max-width:80px;
+  min-width:80px;
+}
 .table-filter select.mw-101{
   max-width:100px;
   min-width:100px;
