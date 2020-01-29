@@ -1232,7 +1232,7 @@ color: #000000;
 }
 .table-wrap table thead tr th{
 font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 17px;
 text-align:center;
 color: #000000;
@@ -1243,7 +1243,7 @@ white-space: nowrap
 }
 .table-wrap table tbody tr td{
   font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 15px;
 text-align:center;
 color: #000000;
@@ -2199,6 +2199,7 @@ margin:25px 0px
   font-size: 14px;
     line-height: 26px;
     color: #000000;
+    font-weight: 500;
 }
 .newform input[type="checkbox"] + label{
   margin-left:5px;
