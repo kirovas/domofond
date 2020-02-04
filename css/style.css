@@ -11,7 +11,8 @@ v1.6.1
 Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com Twitter: @rich_clark
 */
-html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;font-size:100%;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;font-size:100%;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin-top: 22px;
+  margin-bottom: 15px;padding:0}input,select{vertical-align:middle}
  
 /* Minimal base styles
 More Info: https://github.com/paulirish/html5-boilerplate/blob/362d0b7/css/style.css
@@ -55,7 +56,11 @@ img { /* Needed for mobile */
     margin-right:auto;
     max-width:100%;
 }
- 
+.container {
+  width: 1140px!important;
+  max-width:1140px!important;
+  min-width:1140px!important;
+}
 /* ------------------------- Typography */
 strong {font-weight:bold;}
 p {}
@@ -1046,7 +1051,7 @@ text-decoration:none;
 .table-navbar .nav-tabs{
   border:0px;
   margin-left:0px;
-  margin-top:30px;
+  margin-top:0px;
 }
 .table-navbar .nav-tabs .nav-link{
 border:0px;
@@ -1055,7 +1060,7 @@ font-size: 14px;
 line-height: 17px;
 border-radius:0px;
 color: #000000;
-padding:8px 20px;
+padding: 8px 22px;
 }
 .table-navbar .nav-tabs .nav-link:focus, .table-navbar .nav-tabs .nav-link:hover{
   border:0px;
@@ -1077,7 +1082,7 @@ padding:8px 20px;
   
 }
 .table-filter{
-  padding-top:25px;
+  padding-top:0px;
   margin-bottom: 10px;
 }
 .table-filter h4{
@@ -1195,8 +1200,9 @@ color:#000;
 }
 
 .filter-search input.form-control,.table-filter input.form-control, .form-group input.form-control, .table-filter select, .form-control{
-  font-weight: normal;
+  font-weight: 500;
 font-size: 14px;
+line-height: 17px;
 color: #000000;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1224,8 +1230,8 @@ color: #000000;
   opacity:0;
 }
 .table-filter select{
-  width:100%;
-  min-width:130px;
+  
+  
 }
 .table-wrap table{
   background:#fff;
@@ -1921,7 +1927,7 @@ display:block;
   border:0px;
   border-radius:0px;
   vertical-align: top;
-  padding: 6px 10px;
+  padding: 7px 10px;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
@@ -1929,6 +1935,7 @@ display:block;
   text-decoration: none;
   background: #116D92;
     color: #FFFFFF;
+    min-width:105px;
 }
 .control-btn img{
   display: inline-block;
@@ -2835,6 +2842,122 @@ line-height: 17px;
 
 
 color: #000000;
+ }
+ .nav-tabs .nav-item {
+ 
+  margin-right: -2px;
+}
+ .right-column{
+   -ms-flex: 0 0 950px;
+    flex: 0 0 950px;
+    max-width: 950px;
+    padding-left:15px;
+    padding-right:15px;
+ }
+ .mr-05{
+  margin-right: 5px;
+ }
+ .mt-13{
+   margin-top:13px;
+ }
+ .mt-25{
+  margin-top: 25px;
+ }
+ .mb-15{
+   margin-bottom:15px;
+ }
+ .ml-27{
+  margin-left: 27px;
+ }
+ .mr-10{
+   margin-right:10px;
+ }
+ .ml-10{
+   margin-left:10px;
+ }
+ .mr-15{
+  margin-right: 15px;
+ }
+ .ml-15{
+   margin-left:15px;
+ }
+ .mr-12{
+  margin-right:12px;
+ }
+ .mr-13{
+   margin-right:13px;
+ }
+ .mr-16{
+  margin-right: 16px;
+ }
+ .mr-17{
+  margin-right: 17px;
+ }
+ .mr-20{
+   margin-right:20px;
+ }
+ .mr-25{
+   margin-right:25px;
+ }
+ .ml-23{
+  margin-left: 23px;
+ }
+ .ml-25{
+   margin-left:25px;
+ }
+ .mt-15{
+  margin-top: 15px;
+ }
+ .ml-30{
+   margin-left:30px;
+ }
+ .ml-165{
+  margin-left: 165px;
+ }
+ .ml-65{
+  margin-left: 65px;
+ }
+ .ml-75{
+  margin-left: 75px;
+ }
+ .w-102{
+  width: 102px;
+ }
+ .w-60{
+   width:60px;
+ }
+ .ml-80{
+  margin-left: 80px;
+ }
+ .ml-155{
+   margin-left:155px;
+ }
+ .w-80{
+   width:80px;
+ }
+ .w-97{
+   width:97px;
+ }
+ .w-160{
+   width:160px;
+ }
+ .w-195{
+   width:195px;
+ }
+ .w-200{
+   width:200px;
+ }
+ .w-298{
+   width:298px;
+ }
+ .w-252{
+   width:252px;
+ }
+ .w-219{
+  width: 219px;
+ }
+ .w-229{
+   width:229px;
  }
 /* ------------------------- Media Queries */
  
