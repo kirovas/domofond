@@ -1211,7 +1211,7 @@ border-radius:0px;
 padding:0px 10px;
 }
 .table-filter textarea, .tab-pane textarea{
-  font-weight: normal;
+  font-weight: 500;
 font-size: 14px;
 color: #000000;
 background-color: #FFFFFF;
