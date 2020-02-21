@@ -80,7 +80,7 @@ a:hover {color:inherit;}
 /* ------------------------- Forms */
 input {}
 select {}
-label {}
+label {white-space: nowrap;}
  
 /* ------------------------- Lists */
  
@@ -1720,13 +1720,13 @@ color: #000000;
   
 }
 .custom-control{
-  padding-left: 1rem;
+  padding-left: 25px;
 }
 .custom-control-label::before{
-  left: -1.1rem;
+  left: -26px;
 }
 .custom-control-label::after{
-	left: -1.1rem;
+	left: -26px;
 }
 .page-mail .table-wrap table thead tr th{
   background: #A6D5A8;
@@ -2366,7 +2366,7 @@ color: #000000;
 
 .photo-wrap{
   position:relative;
-  margin-bottom:15px;
+  margin-bottom:0px;
 }
 .photo-name{
   font-weight: 500;
@@ -2854,11 +2854,20 @@ color: #000000;
     padding-left:15px;
     padding-right:15px;
  }
+ .mh-100{
+   height:100px!important;
+ }
+ .mh-60{
+  min-height:60px!important;
+ }
  .mr-05{
   margin-right: 5px;
  }
  .mt-13{
    margin-top:13px;
+ }
+ .mt-10{
+   margin-top:10px;
  }
  .mt-25{
   margin-top: 25px;
@@ -2881,6 +2890,9 @@ color: #000000;
  .ml-15{
    margin-left:15px;
  }
+ .ml-20{
+   margin-left:20px;
+ }
  .mr-12{
   margin-right:12px;
  }
@@ -2899,6 +2911,22 @@ color: #000000;
  .mr-25{
    margin-right:25px;
  }
+ .mr-30{
+   margin-right:30px;
+ }
+ .mr-40{
+  margin-right:40px;
+}
+ .mr-45{
+  margin-right:45px;
+}
+ .mr-55{
+   margin-right:55px;
+ }
+ .mr-60{
+   margin-right:60px;
+ }
+
  .ml-23{
   margin-left: 23px;
  }
@@ -2920,44 +2948,225 @@ color: #000000;
  .ml-75{
   margin-left: 75px;
  }
- .w-102{
-  width: 102px;
- }
- .w-60{
-   width:60px;
- }
  .ml-80{
-  margin-left: 80px;
+   margin-left:80px;
+ }
+ .ml-86{
+  margin-left:86px;
+}
+ .ml-105{
+   margin-left:105px;
  }
  .ml-155{
    margin-left:155px;
  }
+ .w-36{
+  width:36px;
+}
+ .w-37{
+   width:37px;
+ }
+ .w-40{
+  width:40px!important;
+}
+ .w-43{
+  width:43px;
+}
+ .w-47{
+   width:47px;
+   min-width: 47px;
+ }
+ .w-48{
+  width:48px;
+  min-width: 48px;
+ }
+ .w-50{
+   width:50px!important;
+ }
+ .w-53{
+  width:53px!important;
+}
+ .w-56{
+  width:56px!important;
+}
+ .w-60{
+  width:60px!important;
+}
+.w-64{
+  width:64px!important;
+  min-width:64px;
+}
+.w-68{
+  width:68px;
+}
+ .w-75{
+  width:75px!important;
+}
  .w-80{
    width:80px;
  }
+ .w-87{
+  width:87px;
+}
+ .w-90{
+  width:90px;
+}
+.w-92{
+  width:92px;
+}
  .w-97{
    width:97px;
+ }
+ .w-102{
+  width: 102px;
+ }
+ .w-105{
+  width:105px;
+}
+ .w-106{
+  width:106px;
+}
+ .w-108{
+   width:108px;
+ }
+ .w-111{
+   width:111px;
+ }
+ .w-115{
+  width:115px;
+}
+ .w-125{
+   width:125px;
+ }
+ .w-133{
+   width:133px;
+ }
+ .w-135{
+   width:135px;
+ }
+ .w-141{
+   width:141px;
+ }
+ .w-145{
+   width:145px;
+ }
+ .w-152{
+   width:152px;
+ }
+ .w-155{
+  width:155px;
  }
  .w-160{
    width:160px;
  }
+ .w-164{
+  width:164px;
+}
+.w-180{
+  width:180px;
+}
+ .w-183{
+   width:183px;
+ }
+ .w-185{
+  width:185px;
+}
+.w-190{
+  width:190px;
+}
+.w-191{
+  width:191px;
+}
+ .w-194{
+  width:194px;
+}
  .w-195{
    width:195px;
  }
+ .w-199{
+  width:199px;
+}
  .w-200{
    width:200px;
  }
+ .w-208{
+  width:208px;
+}
+ .w-214{
+  width:214px;
+}
+ .w-233{
+  width:233px;
+}
  .w-298{
    width:298px;
  }
  .w-252{
    width:252px;
  }
+ .w-245{
+  width:245px;
+  max-width: 245px;
+}
+ .w-255{
+  width:255px;
+  max-width: 255px;
+}
  .w-219{
   width: 219px;
  }
+ .w-222 {
+  width: 232px;
+  max-width: 232px;
+  min-width: 232px;
+}
+.col.w-222{
+  padding:5px;
+}
  .w-229{
    width:229px;
+ }
+ .w-283{
+  width:283px;
+}
+.w-292{
+  width:292px;
+}
+.w-294{
+  width:294px;
+}
+.w-318{
+  width:318px;
+}
+.w-356{
+  width:356px;
+}
+ .w-376{
+   width:376px;
+ }
+ .w-381{
+  width:381px;
+}
+ .w-383{
+   width:383px;
+ }
+ .w-445{
+  width:445px;
+  max-width:445px;
+  min-width:445px;
+}
+ .w-475{
+   width:475px;
+   max-width:475px;
+   min-width:475px;
+ }
+ .nf1 span.pluss{
+  margin: 0px 0px;
+  background: #B9BCF8;
+ }
+ #clients4 .table-wrap table tbody tr td{
+  padding:7px 0px;
+vertical-align:middle;
  }
 /* ------------------------- Media Queries */
  
