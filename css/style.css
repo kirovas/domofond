@@ -2255,6 +2255,7 @@ text-decoration:none;
 }
 .clients-modal{
   cursor:pointer;
+  min-width:6px;
 }
 .newform span.pluss{
   width:22px;
@@ -2771,6 +2772,18 @@ opacity: 0.4;
 input:read-only{
   background:#fff;
 }
+.df1 .nav-tabs .nav-item.show .nav-link, .df1 .nav-tabs .nav-link.active{
+  background: #9BC9F5;
+}
+.df1 .nf-heading{
+  background: #9BC9F5;
+}
+.df1 table thead tr th{
+  background: #9BC9F5
+}
+.df1 .control-btn.green {
+    background: #9BC9F5;
+}
 /* NEW STYLE */
  #filterModal .modal-dialog{
   max-width:1100px;
@@ -2917,6 +2930,9 @@ color: #000000;
  .mr-30{
    margin-right:30px;
  }
+ .mr-35{
+  margin-right:35px;
+ }
  .mr-40{
   margin-right:40px;
 }
@@ -2972,6 +2988,10 @@ color: #000000;
  .pl-12{
   padding-left: 12px;
  }
+ .w-32{
+  width:32px;
+ }
+
  .w-36{
   width:36px;
 }
@@ -3008,11 +3028,17 @@ color: #000000;
   width:64px!important;
   min-width:64px;
 }
+.w-63{
+  width:63px!important;
+}
 .w-68{
   width:68px;
 }
  .w-75{
   width:75px!important;
+}
+.w-70{
+  width:70px;
 }
  .w-80{
    width:80px;
@@ -3029,8 +3055,14 @@ color: #000000;
  .w-97{
    width:97px;
  }
+ .w-95{
+  width:95px;
+}
  .w-102{
   width: 102px;
+ }
+ .w-103{
+  width: 103px;
  }
  .w-105{
   width:105px;
@@ -3047,11 +3079,17 @@ color: #000000;
  .w-115{
   width:115px;
 }
+.w-120{
+  width:120px;
+}
  .w-125{
    width:125px;
  }
  .w-133{
    width:133px;
+ }
+ .w-134{
+   width:134px;
  }
  .w-135{
    width:135px;
@@ -3059,6 +3097,12 @@ color: #000000;
  .w-141{
    width:141px;
  }
+ .w-142{
+  width:142px;
+ }
+ .w-144{
+  width:144px;
+}
  .w-145{
    width:145px;
  }
@@ -3067,6 +3111,12 @@ color: #000000;
  }
  .w-155{
   width:155px;
+ }
+ .w-156{
+   width:156px;
+ }
+ .w-159{
+  width:159px;
  }
  .w-160{
    width:160px;
@@ -3110,6 +3160,9 @@ color: #000000;
  .w-233{
   width:233px;
 }
+.w-240{
+  width:240px;
+}
  .w-298{
    width:298px;
  }
@@ -3138,6 +3191,9 @@ color: #000000;
  .w-229{
    width:229px;
  }
+ .w-278{
+   width:278px;
+ }
  .w-283{
   width:283px;
 }
@@ -3150,6 +3206,9 @@ color: #000000;
 .w-318{
   width:318px;
 }
+.w-355{
+  width:355px;
+}
 .w-356{
   width:356px;
 }
@@ -3161,6 +3220,11 @@ color: #000000;
 }
  .w-383{
    width:383px;
+ }
+ .w-402{
+  width:445px;
+  max-width:445px;
+  min-width:445px;
  }
  .w-445{
   width:445px;
