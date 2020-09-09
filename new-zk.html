@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css"  />
+    <!-- <link rel="stylesheet" href="css/bootstrap-datepicker.min.css"  /> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="sep/css/sidebar.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="sep/css/sticky-header.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -1963,14 +1964,14 @@
                                   <input type="radio" id="from5" name="all5" class="custom-control-input">
                                   <label class="custom-control-label " for="from5">с</label>
                                 </div>
-                                <div class="date w-120 mr-15">
-                                  <input type="text" class="form-control ">
-                                  <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                <div class=" w-140 mr-15">
+                                  <input type="date" class="form-control ">
+                                  
                                 </div>
                                 <span class="mr-15">по </span>
-                                <div class="date w-120 mr-15">
-                                  <input type="text" class="form-control ">
-                                  <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                <div class=" w-140 mr-15">
+                                  <input type="date" class="form-control ">
+                                  
                                 </div>
                               </div>
                               <div class="d-flex justify-content-start align-items-center mt-3">
@@ -1986,14 +1987,14 @@
                                   <input type="radio" id="from6" name="all6" class="custom-control-input">
                                   <label class="custom-control-label " for="from6">с</label>
                                 </div>
-                                <div class="date w-120 mr-15">
-                                  <input type="text" class="form-control ">
-                                  <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                <div class="w-140 mr-15">
+                                  <input type="date" class="form-control ">
+                                  
                                 </div>
                                 <span class="mr-15">по </span>
-                                <div class="date w-120 mr-15">
-                                  <input type="text" class="form-control ">
-                                  <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                <div class=" w-140 mr-15">
+                                  <input type="date" class="form-control ">
+                                  
                                 </div>
                               </div>
                               <div class="d-flex justify-content-start align-items-center mt-4">
@@ -2094,9 +2095,9 @@
                               </div>
                               <div class="d-flex justify-content-start align-items-center mt-3">
                                 <label for="" class="mr-15">С</label>
-                                <div class="date w-120 mr-10">
-                                  <input type="text" class="form-control ">
-                                  <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                <div class=" w-140 mr-10">
+                                  <input type="date" class="form-control ">
+                                  
                                 </div>
                                 <span class="mr-30">:</span>
                                 
@@ -2109,18 +2110,18 @@
                                     <label class="custom-control-label" for="special5">Акция </label>
                                   </div>
                                   <span class="mr-15">с</span>
-                                  <div class="date w-120 mr-15">
-                                    <input type="text" class="form-control ">
-                                    <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                  <div class=" w-140 mr-15">
+                                    <input type="date" class="form-control ">
+                                    
                                   </div>
                                   <span class="mr-15">по </span>
-                                  <div class="date w-120">
-                                    <input type="text" class="form-control ">
-                                    <span class="s-icon"><img src="images/s-calendar.png" alt=""></span>
+                                  <div class="w-140">
+                                    <input type="date" class="form-control ">
+                                    
                                   </div>
                               </div>
                               <div class="d-flex justify-content-start align-items-center">
-                                <div class="custom-control custom-radio" style="margin-left: 188px;">
+                                <div class="custom-control custom-radio" style="margin-left: 208px;">
                                   <input type="radio" id="enl6" name="reduce6" class="custom-control-input">
                                   <label class="custom-control-label " for="enl6">Увеличить</label>
                                 </div>
@@ -3978,6 +3979,61 @@
                 </div>
                 
               </div>
+              <div class="tab-pane fade" id="clients3" role="tabpanel" aria-labelledby="clients3-tab">
+                <div class="table-filter row align-items-end">
+                    <div class="col-md-12 mt-5">
+                      <button class="btn control-btn green"><img src="images/recycle.png" alt="">Восстановить</button>
+                    </div>
+                    
+                      <div class="pages-link ml-auto pr-3">
+                        <span>Страницы:</span>
+                        <a href="#">1 </a>
+                        <a href="#"><img src="images/chevron-right.png" alt=""></a>
+                      </div>
+                </div>
+                <div class="table-wrap">
+                    <div class="table-responsive">
+                     <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox"> Все  </th>
+                                <th>Код Заявки</th>
+                                <th>Цена</th>
+                                <th>Район</th>
+                                <th>Адрес</th>
+                                <th>Код Клиента</th>
+                                <th>Deadline</th>
+                                
+                                
+                                
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                                <td> </td>
+                                
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                 </div>
+                 <div class="table-filter row align-items-end mt-0 pt-0">
+                   <div class="pages-link ml-auto pr-3">
+                        <span>Страницы:</span>
+                        <a href="#">1 </a>
+                        <a href="#"><img src="images/chevron-right.png" alt=""></a>
+                      </div>
+                 </div>
+            
+            </div>
             </div>
           </div>
         </div>
@@ -5266,8 +5322,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" ></script>
-    <script src="js/bootstrap-datepicker.min.js" ></script>
-  <script src="js/bootstrap-datepicker.ru.min.js" ></script>
+    
+  <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/scripts.js" ></script>
   </body>
 </html>
