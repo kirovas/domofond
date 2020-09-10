@@ -4797,6 +4797,10 @@ input:read-only {
   min-width: 475px;
 }
 
+.w-484 {
+  width: 484px;
+}
+
 .w-380 {
   width: 380px;
   max-width: 380px;
@@ -4991,13 +4995,10 @@ label span.f-12 {
   color: #434343;
 }
 
-.chese-table .table {
-  table-layout: fixed;
-}
-
 .chese-table .table tr th {
   padding-top: 5px;
   padding-left: 3px;
+  width: 130px;
 }
 
 .chese-table .table tr th > div {
@@ -5020,6 +5021,7 @@ label span.f-12 {
   padding-top: 5px;
   padding-left: 3px;
   position: relative;
+  width: 130px;
 }
 
 .chese-table .table tr td > div {
@@ -5121,13 +5123,14 @@ label span.f-12 {
 }
 
 #korpusFilter .modal-header {
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   border: 0px;
   position: relative;
+  padding-left: 35px;
 }
 
 #korpusFilter .modal-header .btn-wrap {
@@ -5146,7 +5149,7 @@ label span.f-12 {
 
 #korpusFilter .korpus-inner {
   background: #fff;
-  height: 536px;
+  height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5160,6 +5163,7 @@ label span.f-12 {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  margin-bottom: 30px;
   color: #000000;
 }
 
@@ -5173,26 +5177,28 @@ label span.f-12 {
 }
 
 #planFilter .modal-header {
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   border: 0px;
   position: relative;
+  padding-left: 35px;
 }
 
 #planFilter .modal-header .btn-wrap {
   position: absolute;
-  top: -10px;
-  right: 0px;
+  top: 37px;
+  right: 25px;
 }
 
 #planFilter .modal-header .modal-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  text-align: center;
+  text-align: left;
+  margin-left: -15px;
   color: #000000;
 }
 
@@ -5240,13 +5246,6 @@ label span.f-12 {
   overflow-y: auto;
 }
 
-@media (min-width: 1200px) {
-  #etazhFilter .modal-xl {
-    max-width: 1800px;
-    width: 1800px;
-  }
-}
-
 #etazhFilter .modal-content {
   background-color: #F3F3F3;
   border-radius: 0px;
@@ -5260,6 +5259,7 @@ label span.f-12 {
           justify-content: start;
   border: 0px;
   position: relative;
+  padding-left: 35px;
 }
 
 #etazhFilter .modal-header .btn-wrap {
@@ -5293,7 +5293,7 @@ label span.f-12 {
 
 #etazhFilter .korpus-inner {
   background: #fff;
-  height: 536px;
+  height: 492px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5350,6 +5350,12 @@ label span.f-12 {
 
 #etazhFilter .modal-foo p img {
   display: inline-block;
+}
+
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 1110px;
+  }
 }
 
 /* ------------------------- Media Queries */
