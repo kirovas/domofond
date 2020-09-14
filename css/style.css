@@ -2804,7 +2804,7 @@ label {
 }
 
 .form-control.border-red, .table-filter input.form-control.border-red, select.custom-select.border-red {
-  border: 3px solid #FF0800;
+  border: 3px solid #FF0800 !important;
 }
 
 .form-control.border-bl, .table-filter input.form-control.border-bl, select.custom-select.border-bl {
@@ -4666,6 +4666,10 @@ input:read-only {
   width: 229px;
 }
 
+.w-237 {
+  width: 237px;
+}
+
 .w-247 {
   width: 247px;
   min-width: 247px;
@@ -4725,6 +4729,10 @@ input:read-only {
 
 .w-344 {
   width: 344px;
+}
+
+.w-347 {
+  width: 347px;
 }
 
 .w-348 {
@@ -5082,6 +5090,18 @@ label span.f-12 {
   background: #F3DA82;
 }
 
+.chese-table .table tr td.color-6 {
+  background: #F3AB82;
+}
+
+.chese-table .table tr td.color-7 {
+  background: #E3D5FB;
+}
+
+.chese-table .table tr td.color-8 {
+  background: #6ECB9E;
+}
+
 .date {
   position: relative;
 }
@@ -5269,6 +5289,13 @@ label span.f-12 {
 }
 
 #etazhFilter .modal-header .modal-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+#etazhFilter .modal-header .modal-title span {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
